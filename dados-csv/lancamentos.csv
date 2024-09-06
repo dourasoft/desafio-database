@@ -1,0 +1,1001 @@
+id,tipo,status,descricao,valor,valorliquidado,vencimento,liquidacao,cadastrosid,categoriasid
+1,receber,aberto,dapibus nulla suscipit ligula,54520.2,985388.55,2024/06/18,2023-12-20,38,1
+2,pagar,liquidado,rhoncus sed,621202.86,814707.79,2022/07/06,2022-08-18,20,5
+3,pagar,aberto,pede posuere,719891.86,336599.0,2022/06/17,2022-05-04,51,5
+4,receber,liquidado,duis bibendum felis sed,962423.64,553993.75,2023/03/23,2023-10-15,51,2
+5,pagar,aberto,semper interdum mauris ullamcorper purus,417250.83,394885.7,2022/05/23,2022-09-07,68,1
+6,receber,aberto,justo in hac,870026.34,889679.26,2021/09/08,2023-09-10,41,8
+7,receber,liquidado,est quam pharetra,882794.17,854279.21,2023/03/26,2023-05-12,59,2
+8,receber,aberto,tincidunt ante,867997.05,611834.74,2022/11/15,2023-10-18,30,2
+9,pagar,liquidado,in imperdiet et,298052.96,212509.44,2024/08/28,2024-06-25,40,6
+10,receber,aberto,orci mauris,826448.79,311997.74,2024/02/27,2022-12-20,18,4
+11,pagar,liquidado,at diam,902745.72,911343.7,2023/06/24,2021-12-28,84,7
+12,pagar,aberto,in hac habitasse,291900.5,560816.89,2022/04/10,2024-01-22,16,4
+13,receber,liquidado,pede ac,367509.0,600032.08,2022/12/25,2022-10-20,6,7
+14,pagar,liquidado,iaculis congue,884585.34,357310.91,2023/06/03,2022-11-21,31,1
+15,pagar,aberto,penatibus et magnis dis,997903.2,140596.91,2023/09/19,2022-03-17,45,4
+16,receber,aberto,nunc nisl duis bibendum felis,266028.51,454182.52,2024/06/28,2022-11-05,89,5
+17,pagar,liquidado,lacus curabitur at ipsum ac,13034.66,571166.51,2023/06/10,2023-07-24,34,3
+18,pagar,aberto,condimentum id luctus,738547.41,40110.36,2022/06/06,2024-06-27,90,6
+19,pagar,aberto,mauris non ligula,753837.6,875951.14,2024/06/06,2023-06-02,92,9
+20,pagar,liquidado,quisque erat,740985.91,870729.11,2024/07/10,2023-08-05,19,10
+21,pagar,liquidado,nisi nam ultrices libero,178504.41,144864.67,2023/05/17,2021-12-29,94,10
+22,pagar,aberto,nisi eu orci mauris,702915.32,164020.43,2022/06/23,2022-06-10,42,8
+23,pagar,liquidado,est phasellus,302381.57,546047.91,2022/05/30,2021-11-20,33,3
+24,receber,aberto,erat fermentum justo nec condimentum,891430.14,606091.37,2023/05/25,2024-08-21,27,5
+25,pagar,liquidado,lacinia aenean sit amet,294652.98,380064.67,2024/01/03,2024-02-24,81,8
+26,receber,liquidado,ut blandit non interdum in,310006.1,811666.26,2021/09/20,2021-12-17,26,4
+27,receber,aberto,mauris lacinia sapien quis libero,995427.11,808103.29,2023/02/03,2024-03-22,84,9
+28,receber,liquidado,potenti nullam porttitor,737243.53,200621.57,2022/07/24,2021-11-19,2,8
+29,receber,liquidado,blandit nam,638958.23,985846.71,2024/05/14,2023-07-24,8,6
+30,receber,liquidado,felis donec semper,349115.86,130997.01,2024/02/11,2022-07-25,84,5
+31,receber,aberto,nunc commodo placerat,662940.87,322019.24,2023/06/24,2024-04-21,75,3
+32,receber,aberto,vulputate luctus cum sociis,873368.88,333809.4,2023/12/27,2024-06-06,67,9
+33,receber,aberto,laoreet ut rhoncus aliquet pulvinar,671323.47,786042.53,2024/08/09,2023-02-26,40,1
+34,pagar,aberto,donec quis orci,776551.6,839355.55,2023/08/31,2022-09-11,97,7
+35,receber,aberto,risus auctor sed tristique in,73737.11,501301.96,2022/07/28,2024-08-27,100,9
+36,receber,liquidado,amet diam in magna,724010.61,981676.37,2023/01/04,2023-07-12,42,6
+37,receber,liquidado,lobortis convallis tortor risus dapibus,833929.89,18729.82,2023/01/03,2023-05-05,3,7
+38,pagar,liquidado,tellus nulla ut erat,915179.16,139956.64,2022/07/08,2021-10-19,28,2
+39,receber,liquidado,sed nisl nunc,942921.94,701379.71,2022/12/29,2022-02-05,95,7
+40,pagar,liquidado,sed nisl nunc,491540.15,954845.37,2023/07/25,2024-06-05,18,1
+41,receber,aberto,nulla nisl nunc nisl,783443.11,399402.32,2022/10/19,2023-12-27,2,6
+42,pagar,liquidado,lectus vestibulum,913225.57,678439.55,2023/08/14,2024-02-26,25,3
+43,pagar,aberto,fusce posuere felis sed lacus,310810.22,864023.7,2023/11/10,2022-10-08,87,6
+44,pagar,liquidado,sagittis nam congue risus semper,482589.38,393091.14,2023/10/13,2022-03-02,54,1
+45,receber,aberto,fusce consequat,636307.29,204823.67,2023/01/03,2022-04-16,29,1
+46,receber,liquidado,consectetuer adipiscing elit proin,721108.37,598291.0,2022/02/27,2024-05-30,2,2
+47,pagar,liquidado,pede justo eu,510492.03,117374.29,2022/10/24,2022-05-04,69,4
+48,pagar,liquidado,vestibulum aliquet ultrices erat tortor,56708.47,149908.85,2023/09/22,2022-12-21,65,7
+49,pagar,aberto,mi sit amet lobortis sapien,247586.0,43706.88,2024/02/29,2024-04-01,37,1
+50,receber,aberto,mus vivamus vestibulum sagittis sapien,639551.07,102275.63,2021/09/12,2023-04-01,64,4
+51,receber,liquidado,pede libero quis orci,96134.6,391034.32,2024/08/30,2022-02-05,21,8
+52,pagar,aberto,pede morbi porttitor lorem,171519.57,792856.06,2021/10/11,2022-05-26,2,3
+53,receber,liquidado,vestibulum aliquet ultrices erat tortor,1563.67,100756.62,2023/07/13,2024-08-11,55,7
+54,pagar,liquidado,eget nunc donec quis orci,877128.83,344851.43,2021/09/09,2022-01-04,17,6
+55,pagar,liquidado,leo maecenas pulvinar lobortis est,665761.0,990468.26,2023/09/06,2024-07-27,93,1
+56,pagar,aberto,mollis molestie,124537.36,470924.84,2023/08/29,2024-06-28,71,3
+57,receber,liquidado,orci pede venenatis non sodales,518030.61,532718.11,2022/06/12,2022-04-16,31,3
+58,receber,aberto,dolor sit amet consectetuer,595335.41,348782.01,2022/02/16,2024-07-01,64,7
+59,receber,liquidado,sit amet eros suspendisse accumsan,166870.49,8411.85,2021/10/05,2023-06-17,73,10
+60,pagar,liquidado,leo pellentesque ultrices mattis,329140.53,62021.79,2021/11/26,2022-01-31,15,3
+61,pagar,aberto,sapien non mi,145592.63,278863.53,2021/10/12,2022-06-16,81,6
+62,receber,liquidado,venenatis lacinia,551302.63,675301.73,2022/12/09,2022-03-17,4,4
+63,pagar,aberto,ac nulla sed,301191.07,842916.45,2024/08/05,2024-08-31,84,6
+64,receber,aberto,tortor id nulla,261117.71,965579.14,2022/01/15,2023-03-24,87,3
+65,pagar,aberto,in ante vestibulum,705871.81,867555.35,2022/05/24,2023-09-01,98,6
+66,receber,aberto,tristique est et tempus semper,300170.38,360709.68,2023/07/14,2021-09-11,91,6
+67,receber,aberto,ultrices aliquet maecenas leo odio,608449.26,167670.03,2022/08/09,2021-11-17,93,3
+68,pagar,liquidado,ut volutpat sapien arcu,11444.29,363280.16,2023/04/22,2022-11-17,92,8
+69,receber,aberto,sed nisl,715637.4,699247.91,2023/07/14,2023-09-26,10,6
+70,pagar,aberto,sed vel enim sit,605940.2,257745.88,2024/01/14,2022-09-21,29,6
+71,receber,aberto,nulla ultrices aliquet maecenas leo,972585.86,863064.16,2023/03/13,2024-07-14,56,1
+72,pagar,aberto,phasellus sit amet erat nulla,37925.19,837424.1,2023/09/26,2023-07-03,80,10
+73,receber,aberto,vestibulum ac est,897915.46,851973.41,2024/07/27,2022-11-20,39,10
+74,receber,aberto,vulputate vitae nisl,56471.35,314020.75,2023/05/10,2023-07-05,65,9
+75,receber,aberto,sit amet,978389.5,644803.28,2021/09/22,2021-10-12,55,5
+76,pagar,aberto,sit amet,940841.98,226749.76,2022/07/17,2022-04-26,57,10
+77,pagar,liquidado,tortor sollicitudin mi,139121.63,71377.39,2023/02/14,2023-12-14,26,1
+78,receber,aberto,justo etiam pretium iaculis justo,450997.23,765000.17,2022/08/21,2023-05-25,15,8
+79,pagar,liquidado,potenti cras in purus,205161.73,422687.72,2024/07/21,2022-12-24,28,7
+80,receber,liquidado,nulla sed vel,194534.42,468149.81,2022/10/19,2021-09-29,45,2
+81,pagar,aberto,in sagittis dui vel nisl,691338.3,862945.43,2022/11/11,2024-08-14,37,10
+82,receber,aberto,nascetur ridiculus mus,37125.7,969700.4,2022/10/15,2024-03-27,40,7
+83,pagar,aberto,platea dictumst,967178.09,187085.58,2024/06/04,2021-12-02,94,2
+84,receber,aberto,mauris eget massa,902889.85,415237.99,2021/12/01,2022-08-27,47,2
+85,receber,liquidado,porttitor lorem id ligula suspendisse,818136.71,266199.08,2023/06/26,2024-05-14,12,7
+86,pagar,aberto,ut suscipit a feugiat,924534.99,479804.59,2024/06/02,2024-04-01,82,3
+87,pagar,aberto,augue quam sollicitudin vitae consectetuer,771523.42,751240.66,2022/03/08,2022-07-11,7,8
+88,pagar,liquidado,ridiculus mus etiam vel,183693.46,210341.27,2023/10/10,2023-10-29,64,6
+89,receber,liquidado,eu magna vulputate,103208.72,261447.05,2023/06/30,2023-09-05,76,9
+90,pagar,aberto,orci luctus et,797845.33,699644.37,2022/09/21,2023-07-20,8,1
+91,receber,aberto,adipiscing lorem vitae mattis,989469.19,79382.24,2022/06/30,2021-12-12,37,6
+92,pagar,liquidado,volutpat in congue etiam justo,534224.23,780655.64,2021/09/22,2023-10-29,98,3
+93,receber,liquidado,eu est congue,117475.84,219984.2,2023/10/11,2023-07-17,97,3
+94,pagar,aberto,lorem integer,696488.93,224246.7,2024/07/07,2024-07-29,84,9
+95,pagar,liquidado,metus aenean fermentum donec,641437.23,262947.07,2024/08/20,2024-04-26,27,7
+96,pagar,liquidado,lorem vitae,662326.5,800317.72,2024/01/09,2022-10-18,81,6
+97,pagar,liquidado,ut massa volutpat,27822.74,84768.94,2024/07/19,2021-12-21,4,5
+98,receber,liquidado,tortor eu pede,582623.89,495911.97,2024/02/07,2023-05-01,72,6
+99,receber,aberto,imperdiet nullam orci pede,384613.63,55111.62,2024/07/01,2022-12-06,82,3
+100,receber,liquidado,bibendum felis sed interdum venenatis,652695.2,422558.86,2022/07/08,2023-10-16,89,7
+101,pagar,liquidado,a feugiat et,537011.31,968087.08,2023/05/15,2022-03-24,91,1
+102,pagar,aberto,ante ipsum primis in,173678.49,381684.62,2024/06/20,2023-03-17,32,10
+103,receber,aberto,dui vel sem sed,410038.04,545749.97,2021/10/21,2022-02-03,98,4
+104,receber,liquidado,fringilla rhoncus mauris enim,555749.35,965088.35,2023/10/17,2024-01-30,47,9
+105,receber,liquidado,sit amet turpis elementum,925284.63,905661.54,2023/11/28,2022-09-28,71,4
+106,receber,liquidado,orci pede venenatis non,23848.98,165089.99,2022/10/02,2022-09-23,84,1
+107,pagar,aberto,et tempus semper,960196.02,985686.74,2022/09/20,2023-12-15,56,1
+108,receber,liquidado,dolor morbi vel lectus in,531874.33,311173.45,2024/04/09,2024-05-27,31,8
+109,pagar,aberto,amet sapien dignissim vestibulum vestibulum,720931.22,207502.24,2024/01/18,2023-06-27,69,2
+110,pagar,aberto,lobortis est phasellus,760544.01,632932.16,2024/05/31,2022-04-22,66,9
+111,receber,liquidado,mattis pulvinar nulla,97150.75,784643.77,2021/10/30,2023-07-16,47,10
+112,receber,liquidado,bibendum imperdiet,416832.88,801462.42,2023/02/02,2021-09-05,31,4
+113,pagar,aberto,consequat morbi a ipsum integer,709587.76,105695.09,2022/12/10,2024-08-27,24,9
+114,pagar,aberto,habitasse platea dictumst etiam,504547.93,605258.83,2023/07/20,2022-09-29,89,9
+115,pagar,aberto,curabitur gravida nisi at,687697.54,233382.77,2023/05/26,2023-04-08,22,1
+116,receber,aberto,mi pede malesuada in imperdiet,230722.42,183021.99,2023/02/20,2023-07-11,6,3
+117,pagar,liquidado,blandit nam,340469.28,383716.08,2024/04/27,2023-11-24,30,9
+118,pagar,aberto,a ipsum integer a,885473.57,934933.29,2023/04/22,2022-01-12,33,3
+119,pagar,liquidado,sapien ut nunc,921226.18,337389.38,2022/12/27,2021-11-25,96,5
+120,pagar,aberto,vestibulum sed magna,510607.42,946609.65,2023/12/19,2021-12-08,58,2
+121,pagar,liquidado,volutpat eleifend donec,997671.51,695639.69,2023/12/27,2021-12-17,25,2
+122,receber,liquidado,sagittis sapien cum sociis natoque,349803.37,799182.87,2024/02/02,2021-09-13,63,8
+123,pagar,liquidado,et tempus semper est,791219.53,358497.74,2022/04/09,2023-05-19,79,8
+124,pagar,aberto,sagittis dui vel,417888.18,920549.41,2024/02/01,2023-12-17,39,4
+125,receber,aberto,quis orci eget orci,162488.9,174550.43,2023/06/26,2023-12-03,35,1
+126,receber,liquidado,convallis eget eleifend luctus ultricies,230144.78,752387.37,2023/01/30,2022-09-26,91,7
+127,pagar,aberto,rhoncus aliquet,6013.87,165599.44,2022/09/18,2023-12-05,96,1
+128,pagar,liquidado,amet turpis,885989.57,552763.4,2022/07/16,2022-08-06,68,5
+129,pagar,liquidado,vel pede,152066.11,278485.08,2022/09/20,2021-11-18,12,4
+130,pagar,liquidado,porttitor pede,517197.16,20906.23,2021/11/11,2024-03-24,92,9
+131,pagar,liquidado,arcu libero rutrum ac lobortis,736522.08,988684.16,2024/01/29,2022-02-08,27,5
+132,receber,liquidado,arcu libero rutrum ac lobortis,510106.29,162884.97,2024/08/29,2024-02-25,76,5
+133,pagar,aberto,et tempus,461634.36,67155.3,2024/07/11,2024-06-10,16,3
+134,pagar,liquidado,interdum in ante vestibulum,162779.44,52541.07,2023/06/24,2022-02-27,6,9
+135,receber,aberto,ultricies eu,247444.85,151425.29,2021/11/14,2022-07-24,44,4
+136,receber,liquidado,ut blandit non interdum in,757587.06,263053.81,2023/01/22,2023-01-10,60,7
+137,receber,aberto,consectetuer eget,281855.92,928231.45,2022/11/15,2024-08-18,28,4
+138,pagar,aberto,eu nibh quisque id,594609.95,351065.89,2022/10/24,2023-09-09,70,3
+139,pagar,aberto,eget congue eget semper rutrum,292999.66,28895.84,2024/02/14,2022-04-02,21,1
+140,pagar,liquidado,ipsum primis in,625402.66,601057.66,2024/05/15,2021-12-19,3,8
+141,receber,liquidado,erat id mauris vulputate elementum,432045.6,638061.44,2022/11/09,2021-10-23,83,2
+142,pagar,liquidado,dui maecenas tristique est et,887680.89,211436.82,2022/09/20,2021-12-20,100,4
+143,receber,aberto,non mi integer ac neque,256960.15,458464.07,2022/06/09,2023-01-02,47,7
+144,receber,aberto,consequat dui nec nisi volutpat,847914.3,422695.64,2023/10/24,2021-10-18,64,3
+145,pagar,liquidado,aliquam erat volutpat in congue,172539.47,115641.05,2024/02/13,2022-07-05,60,4
+146,pagar,liquidado,in imperdiet et commodo,63238.82,939133.66,2023/03/06,2022-06-14,3,10
+147,pagar,liquidado,porttitor lacus at turpis donec,959926.96,254481.84,2024/07/21,2023-09-19,39,6
+148,pagar,aberto,sagittis dui vel nisl,589199.59,524727.78,2022/12/22,2023-05-03,82,9
+149,receber,liquidado,convallis morbi,274285.33,505816.6,2022/11/11,2022-01-03,31,5
+150,pagar,aberto,aliquam sit amet diam,915173.57,955705.73,2024/08/19,2023-12-03,21,2
+151,pagar,liquidado,molestie hendrerit,232222.43,776807.47,2023/02/02,2022-09-04,55,5
+152,pagar,liquidado,justo nec condimentum neque,729477.31,980350.11,2022/05/05,2022-07-10,53,4
+153,receber,aberto,pulvinar nulla,221194.56,397163.15,2023/06/08,2023-10-04,17,8
+154,pagar,liquidado,justo lacinia eget,766775.31,983945.85,2021/10/12,2024-02-15,80,10
+155,pagar,liquidado,amet eleifend,514115.93,791370.77,2023/04/05,2021-10-12,78,8
+156,pagar,liquidado,hac habitasse platea dictumst etiam,877027.28,508297.42,2022/07/23,2023-03-17,38,5
+157,receber,liquidado,ligula pellentesque ultrices phasellus id,151023.23,898039.08,2024/06/01,2024-08-01,82,6
+158,pagar,aberto,eget massa tempor convallis,868012.65,523003.55,2024/02/06,2022-07-28,36,7
+159,pagar,liquidado,in congue etiam justo,844634.91,835187.49,2023/12/10,2023-09-25,20,2
+160,pagar,liquidado,vel augue vestibulum ante,906074.18,542328.33,2024/03/05,2023-02-17,9,10
+161,receber,liquidado,pellentesque eget nunc,474295.21,930965.93,2022/10/20,2021-12-05,61,9
+162,receber,aberto,id sapien,567017.48,894686.56,2024/02/10,2021-11-25,36,4
+163,pagar,aberto,vestibulum sit amet cursus id,840806.55,463797.53,2024/01/05,2022-09-14,28,4
+164,receber,aberto,amet lobortis,338901.66,974551.6,2022/03/22,2021-09-14,45,7
+165,receber,liquidado,in lacus,385540.7,736953.75,2023/03/28,2022-06-18,35,8
+166,receber,aberto,vulputate vitae,789171.68,84362.39,2024/08/11,2023-02-02,47,9
+167,pagar,liquidado,tortor risus dapibus augue,876961.43,775469.7,2023/04/23,2022-03-03,22,10
+168,pagar,liquidado,semper porta volutpat quam pede,532410.92,780095.64,2022/04/26,2023-05-27,97,10
+169,pagar,liquidado,erat tortor sollicitudin mi sit,879998.65,834408.66,2023/05/23,2021-11-25,91,1
+170,receber,liquidado,mauris viverra diam vitae,882711.69,134629.3,2024/06/21,2022-10-10,84,2
+171,receber,liquidado,curabitur at,998413.18,40168.32,2022/05/24,2022-04-24,95,10
+172,pagar,liquidado,condimentum curabitur,440486.51,954747.23,2022/08/17,2024-08-25,4,8
+173,pagar,aberto,duis bibendum felis,999664.72,381234.1,2024/08/01,2023-09-22,5,3
+174,receber,liquidado,tristique in tempus sit,475655.87,220809.77,2023/05/30,2022-07-10,1,7
+175,pagar,liquidado,sociis natoque,979856.27,891368.1,2022/12/23,2022-11-13,15,8
+176,pagar,liquidado,sit amet,729114.87,918881.3,2022/06/14,2023-04-27,57,5
+177,pagar,aberto,sem sed,389986.5,155827.27,2023/07/15,2024-05-13,42,2
+178,pagar,liquidado,nam congue risus semper porta,185985.62,902926.39,2024/03/14,2022-09-07,24,1
+179,receber,liquidado,penatibus et magnis dis,684003.83,60223.7,2022/03/01,2022-11-19,31,7
+180,pagar,aberto,semper sapien a,247374.46,931966.14,2024/05/24,2023-05-30,11,1
+181,pagar,liquidado,platea dictumst,861494.74,7352.02,2024/04/07,2023-05-09,41,6
+182,pagar,liquidado,at nunc commodo placerat praesent,668967.17,20807.25,2023/06/05,2023-01-19,85,5
+183,receber,aberto,sollicitudin vitae consectetuer eget rutrum,372753.35,896230.32,2022/07/12,2024-01-17,79,9
+184,pagar,aberto,vel nulla eget eros elementum,609921.28,996628.19,2022/05/27,2024-08-15,69,1
+185,receber,liquidado,pulvinar nulla pede,636050.59,995831.41,2023/12/06,2023-06-22,36,2
+186,receber,liquidado,dolor quis odio,114798.19,628750.0,2024/06/01,2023-05-15,43,4
+187,receber,aberto,sem duis aliquam convallis nunc,294673.71,997773.55,2023/09/03,2022-03-26,70,6
+188,pagar,liquidado,sapien varius ut blandit,969447.44,861340.72,2024/07/03,2022-04-19,74,1
+189,pagar,aberto,tortor eu pede,752771.65,761939.29,2021/11/19,2022-01-29,64,9
+190,pagar,aberto,bibendum morbi non quam nec,141217.43,992747.59,2024/08/14,2022-08-18,57,4
+191,receber,aberto,luctus et ultrices posuere,470940.67,237465.27,2022/11/03,2024-03-07,2,8
+192,receber,liquidado,etiam faucibus cursus urna ut,268984.58,259756.02,2023/10/12,2024-08-02,34,2
+193,pagar,liquidado,sed magna at nunc commodo,690868.31,287177.39,2023/11/18,2021-10-14,10,4
+194,receber,liquidado,integer pede justo,500229.07,779786.41,2023/03/01,2023-10-23,87,8
+195,receber,liquidado,ut volutpat sapien arcu sed,328874.34,250431.99,2021/12/18,2022-12-18,12,1
+196,pagar,aberto,hac habitasse platea dictumst,189684.77,274147.75,2023/02/21,2022-11-29,64,2
+197,receber,liquidado,morbi ut,867990.9,253437.11,2023/04/01,2022-03-19,99,3
+198,receber,liquidado,tortor quis turpis,794308.8,284092.62,2022/04/15,2022-02-15,11,9
+199,pagar,aberto,tempus vivamus in felis,561103.76,272075.57,2022/05/24,2023-05-26,59,1
+200,pagar,liquidado,id ligula suspendisse ornare,391379.81,488538.93,2024/06/13,2024-01-09,13,8
+201,receber,liquidado,leo odio condimentum id,410415.1,124728.73,2023/11/30,2022-04-15,10,2
+202,pagar,liquidado,diam cras pellentesque volutpat dui,695935.46,320115.32,2024/02/14,2023-06-28,43,10
+203,pagar,liquidado,duis ac nibh fusce lacus,705990.66,583868.9,2022/01/22,2023-03-11,31,3
+204,receber,aberto,felis sed,422228.91,602055.9,2023/10/27,2023-07-24,57,10
+205,receber,aberto,mauris laoreet,258328.59,380240.48,2023/04/26,2022-05-11,7,7
+206,receber,liquidado,faucibus accumsan odio,892545.53,462318.6,2024/07/22,2022-03-27,20,8
+207,receber,liquidado,faucibus accumsan odio curabitur convallis,2697.26,696061.54,2023/07/22,2022-04-22,98,9
+208,receber,aberto,amet nunc viverra dapibus,70387.78,934238.27,2023/01/22,2024-01-29,16,3
+209,receber,aberto,duis bibendum,595854.49,500421.83,2023/10/13,2023-11-13,50,9
+210,pagar,aberto,consequat nulla nisl nunc nisl,650702.75,559074.41,2024/03/25,2022-09-17,41,10
+211,pagar,liquidado,magna at nunc commodo,277303.9,153726.33,2022/04/02,2022-10-07,88,2
+212,pagar,liquidado,justo morbi ut,560205.55,657496.05,2023/12/26,2023-04-26,82,2
+213,receber,liquidado,vehicula consequat morbi a,934443.66,448873.37,2023/07/02,2022-10-02,29,9
+214,receber,liquidado,montes nascetur ridiculus,733001.83,110224.32,2022/02/05,2024-04-26,46,7
+215,receber,liquidado,nisi nam ultrices libero non,913258.54,635740.89,2023/01/17,2023-09-08,54,9
+216,receber,liquidado,dui vel nisl,622593.85,819301.87,2022/02/06,2023-07-19,5,6
+217,receber,aberto,cum sociis natoque,773477.31,58783.0,2022/03/19,2022-04-30,99,8
+218,receber,liquidado,ipsum ac tellus semper interdum,349187.24,253799.47,2023/08/16,2021-12-08,50,5
+219,receber,aberto,egestas metus aenean fermentum,582275.3,121131.53,2023/06/10,2022-07-03,68,8
+220,pagar,liquidado,eu magna vulputate luctus,290616.49,565553.77,2023/08/04,2023-12-21,95,8
+221,pagar,aberto,morbi non lectus aliquam,964081.67,343219.78,2024/01/29,2023-07-22,68,10
+222,pagar,aberto,donec quis orci eget orci,242936.28,315125.23,2022/07/12,2024-01-09,25,6
+223,pagar,liquidado,odio consequat varius integer ac,169347.44,422928.1,2024/06/17,2021-11-30,19,5
+224,receber,liquidado,sapien in,789299.89,268764.14,2023/02/07,2021-09-06,5,10
+225,pagar,liquidado,placerat praesent blandit nam,246682.07,163826.08,2021/10/05,2022-04-23,99,10
+226,pagar,liquidado,bibendum felis sed,666283.91,426674.96,2022/05/20,2022-11-30,12,6
+227,pagar,aberto,duis ac nibh,794320.86,61314.24,2021/11/12,2021-09-18,8,9
+228,pagar,liquidado,sapien placerat,144498.64,761572.27,2024/04/06,2022-11-13,98,7
+229,receber,aberto,turpis enim blandit,549952.98,21559.49,2022/08/20,2023-09-04,13,8
+230,receber,liquidado,rutrum rutrum neque,161412.1,536635.01,2023/01/30,2024-05-22,30,7
+231,receber,liquidado,dolor quis,307564.78,96590.82,2024/05/31,2022-07-25,2,9
+232,pagar,aberto,vel ipsum praesent blandit lacinia,581495.23,587670.79,2022/05/31,2022-07-12,60,7
+233,pagar,liquidado,arcu adipiscing,707540.81,61565.34,2021/11/15,2024-07-30,74,7
+234,pagar,liquidado,nec nisi vulputate,35791.49,693721.12,2022/12/19,2024-06-23,77,5
+235,pagar,liquidado,ipsum aliquam non mauris,506435.03,791238.16,2021/10/17,2023-09-27,36,9
+236,receber,liquidado,diam vitae quam suspendisse potenti,339297.23,202347.92,2024/07/15,2024-07-09,15,3
+237,receber,liquidado,magnis dis,105593.2,91956.97,2022/06/04,2023-12-05,21,9
+238,pagar,aberto,eget massa,401928.94,214747.0,2024/03/26,2022-07-24,52,3
+239,receber,aberto,quis turpis eget,459193.64,469342.61,2023/10/24,2022-10-17,64,10
+240,pagar,liquidado,ut massa volutpat,21211.51,932346.91,2024/01/13,2022-09-17,6,9
+241,pagar,liquidado,at velit eu est,264946.83,938824.2,2021/11/16,2022-09-08,23,4
+242,receber,liquidado,eros elementum pellentesque,338683.8,57792.23,2023/08/31,2022-06-28,14,7
+243,pagar,liquidado,sapien varius ut blandit non,293956.16,248869.43,2023/01/12,2023-10-20,81,10
+244,receber,aberto,purus eu magna,108599.06,643399.74,2023/04/03,2022-02-23,44,3
+245,pagar,liquidado,semper sapien,787985.35,170211.42,2024/05/27,2024-07-13,16,7
+246,receber,liquidado,erat quisque erat eros viverra,770826.92,338458.84,2022/03/20,2022-01-07,24,3
+247,pagar,liquidado,bibendum felis sed interdum,185156.42,967046.27,2023/01/26,2021-11-02,49,3
+248,receber,aberto,consectetuer adipiscing elit proin,328230.69,381552.33,2022/08/26,2022-10-03,45,1
+249,receber,liquidado,interdum mauris ullamcorper purus,100521.15,557551.96,2023/12/14,2024-04-06,61,9
+250,receber,aberto,vestibulum proin eu,510083.4,979335.96,2021/10/15,2023-01-13,34,7
+251,receber,liquidado,in blandit ultrices enim lorem,36955.47,203689.02,2021/12/18,2023-11-29,64,7
+252,receber,aberto,congue vivamus,14462.53,775538.6,2024/01/07,2023-07-25,72,1
+253,receber,liquidado,sapien dignissim vestibulum,850449.91,901808.13,2024/08/21,2023-04-17,11,7
+254,pagar,liquidado,mauris non ligula pellentesque ultrices,570824.38,908947.04,2023/05/05,2022-08-25,66,4
+255,pagar,liquidado,metus sapien,545716.92,408018.01,2023/02/02,2022-02-02,8,5
+256,receber,liquidado,magnis dis parturient,96578.52,529863.47,2023/08/26,2022-11-19,23,4
+257,pagar,liquidado,sed magna,870013.9,362258.75,2023/04/16,2023-11-25,55,6
+258,receber,liquidado,pellentesque volutpat dui maecenas,781740.78,885267.18,2022/09/01,2022-08-02,74,7
+259,pagar,aberto,iaculis congue vivamus metus arcu,289334.94,12745.32,2023/01/22,2022-11-17,93,3
+260,pagar,liquidado,libero convallis,60432.89,26209.56,2022/10/01,2024-04-04,80,3
+261,receber,aberto,nulla elit ac nulla sed,984461.37,475787.97,2022/03/20,2022-05-28,5,7
+262,receber,liquidado,consectetuer adipiscing elit proin risus,540101.82,848086.35,2023/12/05,2022-04-13,38,6
+263,pagar,liquidado,vulputate vitae,454190.62,417875.75,2021/11/16,2022-03-11,13,2
+264,pagar,aberto,id ornare imperdiet sapien urna,395401.94,876742.44,2024/05/23,2023-06-13,29,5
+265,receber,aberto,erat volutpat in,870049.52,781544.73,2024/05/11,2023-03-29,43,4
+266,pagar,aberto,fermentum justo,394566.67,187552.84,2024/07/24,2021-10-16,56,10
+267,receber,aberto,nisl duis,911309.41,106288.41,2024/05/10,2022-12-23,94,10
+268,pagar,liquidado,luctus rutrum nulla tellus in,44310.78,120910.71,2022/05/02,2023-08-15,8,8
+269,receber,aberto,id pretium iaculis diam,161706.28,807380.08,2021/09/30,2024-08-06,60,8
+270,pagar,liquidado,sollicitudin vitae,733289.66,617382.84,2022/05/29,2023-05-26,83,3
+271,receber,aberto,lacus curabitur at ipsum ac,131271.52,939151.73,2023/04/03,2022-01-22,82,8
+272,receber,aberto,enim lorem ipsum dolor sit,868561.2,921719.53,2022/05/25,2024-04-26,38,5
+273,pagar,liquidado,luctus nec molestie sed,852056.93,339013.71,2023/09/27,2023-10-25,84,5
+274,receber,liquidado,amet turpis,611322.29,985969.92,2024/04/03,2021-11-29,98,6
+275,receber,aberto,in felis donec semper sapien,225671.15,534500.65,2023/10/13,2022-10-22,44,3
+276,receber,liquidado,purus eu magna vulputate luctus,102121.81,888295.17,2023/04/22,2021-12-07,86,7
+277,receber,liquidado,consectetuer eget rutrum,297945.6,27341.82,2024/04/30,2022-06-27,8,2
+278,receber,aberto,lacinia eget tincidunt eget,959723.85,723746.03,2022/02/12,2022-08-21,35,1
+279,receber,liquidado,posuere nonummy integer non velit,22257.51,596602.55,2024/01/03,2021-10-24,86,2
+280,receber,liquidado,lacinia nisi venenatis tristique,566242.76,469761.63,2022/01/19,2021-10-28,31,5
+281,receber,aberto,magna vestibulum,166976.16,93427.66,2023/09/28,2023-11-04,60,3
+282,pagar,liquidado,fusce posuere felis sed,683315.38,520200.96,2022/08/12,2023-01-18,81,6
+283,pagar,aberto,sit amet consectetuer adipiscing,42069.0,211903.17,2021/09/21,2022-02-07,82,8
+284,pagar,liquidado,semper interdum mauris ullamcorper purus,848664.54,924787.3,2023/11/22,2022-02-07,67,1
+285,pagar,liquidado,ultrices posuere,713306.72,656575.07,2021/09/19,2021-12-16,95,3
+286,receber,aberto,ultrices aliquet,283605.72,110252.93,2023/03/28,2023-12-27,78,4
+287,receber,aberto,sed tristique in tempus,111411.43,927578.65,2022/11/02,2023-06-20,23,9
+288,receber,liquidado,massa tempor convallis,320957.4,262963.72,2022/07/03,2024-08-09,19,2
+289,pagar,aberto,diam erat fermentum justo nec,885627.16,6702.65,2023/06/04,2021-12-27,36,3
+290,receber,aberto,turpis donec posuere,523387.51,890679.94,2023/03/17,2021-12-05,54,6
+291,receber,aberto,congue vivamus,813621.79,150459.44,2024/06/08,2022-09-03,45,2
+292,receber,aberto,vitae nisl aenean lectus,85261.93,435067.49,2023/01/30,2021-10-16,11,9
+293,receber,liquidado,eros viverra,51968.1,88951.71,2024/01/14,2023-11-19,10,8
+294,pagar,liquidado,nisi venenatis tristique,656457.19,240859.14,2021/12/28,2022-03-17,39,10
+295,pagar,aberto,maecenas rhoncus aliquam lacus,102183.59,164776.71,2022/11/04,2024-01-26,53,7
+296,pagar,liquidado,nascetur ridiculus,430678.7,646640.2,2022/04/03,2022-07-20,60,2
+297,pagar,liquidado,diam vitae quam suspendisse potenti,868378.32,437531.05,2022/08/18,2022-11-08,11,10
+298,pagar,aberto,lacus morbi quis,835830.02,270350.72,2021/10/07,2023-10-01,74,2
+299,pagar,aberto,velit eu est congue,925799.83,56746.83,2022/03/28,2023-02-18,79,10
+300,receber,liquidado,vestibulum proin eu mi nulla,525840.71,910999.05,2021/11/04,2022-04-26,52,4
+301,receber,aberto,orci luctus et,582849.29,865748.37,2024/07/15,2021-12-26,7,9
+302,receber,aberto,interdum mauris,538735.21,309963.2,2023/12/19,2022-05-17,92,6
+303,receber,aberto,vulputate luctus cum,403604.51,623863.25,2022/12/16,2022-12-16,98,9
+304,receber,liquidado,vel ipsum praesent blandit,683502.8,899845.76,2023/11/22,2022-02-19,17,1
+305,pagar,liquidado,consectetuer eget rutrum at lorem,417763.38,691547.65,2023/04/22,2022-03-13,93,2
+306,receber,liquidado,luctus et ultrices,469480.27,27084.24,2023/08/20,2023-08-26,12,1
+307,receber,aberto,feugiat et eros vestibulum ac,399999.13,326701.23,2022/06/08,2024-05-12,98,7
+308,pagar,aberto,dapibus duis at,626414.79,740849.75,2024/07/22,2024-03-29,34,9
+309,pagar,aberto,vel dapibus at,481141.0,920685.74,2023/10/13,2022-01-08,40,8
+310,pagar,aberto,nulla justo aliquam quis,183618.17,352201.41,2023/04/10,2024-06-17,89,8
+311,receber,liquidado,lobortis ligula sit amet,729735.85,713875.65,2024/06/29,2023-07-18,3,6
+312,pagar,aberto,pede justo eu massa,222403.38,234444.67,2024/02/08,2022-05-03,2,7
+313,receber,aberto,nisi at nibh,335241.13,772350.74,2024/04/15,2023-09-25,56,9
+314,pagar,aberto,turpis elementum,672971.87,556490.54,2022/12/28,2024-06-12,44,5
+315,receber,aberto,pharetra magna,816003.7,377702.08,2024/04/10,2022-11-08,13,1
+316,pagar,aberto,est phasellus,93528.73,202065.66,2024/06/29,2024-03-28,93,3
+317,pagar,liquidado,dolor sit,119559.37,929045.92,2022/03/29,2023-03-11,37,1
+318,receber,aberto,aenean lectus pellentesque eget,361974.55,94308.98,2021/11/17,2022-03-19,22,8
+319,receber,liquidado,porttitor lorem id ligula,485170.93,431342.9,2024/06/09,2022-09-08,59,6
+320,receber,liquidado,nec nisi,726193.29,682669.73,2023/03/15,2023-10-04,80,9
+321,pagar,aberto,aliquam non mauris morbi non,66126.07,729563.79,2021/11/12,2022-03-10,33,2
+322,receber,liquidado,amet nunc viverra,680588.95,442916.89,2024/07/14,2022-07-02,61,7
+323,receber,liquidado,integer non velit donec diam,186069.45,14035.23,2021/09/20,2022-04-08,13,4
+324,receber,aberto,nulla nunc,254929.96,549889.37,2021/09/25,2023-10-19,31,9
+325,pagar,aberto,ultrices posuere,258155.31,408916.64,2022/11/09,2023-11-16,19,5
+326,receber,aberto,augue quam sollicitudin vitae,239445.25,738062.48,2022/02/23,2023-12-21,12,9
+327,pagar,liquidado,iaculis justo in hac,288886.58,870213.02,2024/04/19,2022-09-04,37,3
+328,receber,aberto,nibh in lectus pellentesque at,632774.58,792128.37,2022/09/21,2023-12-10,24,8
+329,pagar,liquidado,et commodo vulputate justo in,945899.61,752072.03,2023/11/25,2023-04-23,27,5
+330,receber,liquidado,leo pellentesque ultrices,635849.08,294932.72,2022/12/10,2022-08-12,50,9
+331,receber,liquidado,quis turpis eget elit sodales,306375.25,109433.67,2023/07/27,2024-06-05,43,1
+332,pagar,aberto,vestibulum sit amet cursus,624685.09,279323.71,2022/02/25,2023-08-13,72,4
+333,receber,aberto,nulla sed accumsan felis ut,964545.56,949832.34,2022/04/10,2024-01-09,59,3
+334,pagar,liquidado,purus aliquet at feugiat non,225943.21,762225.65,2022/01/22,2024-04-16,9,1
+335,pagar,aberto,morbi non lectus aliquam,966201.02,528558.78,2023/06/05,2023-09-18,53,1
+336,pagar,aberto,elit proin risus,303749.67,345755.72,2021/12/07,2021-12-01,100,7
+337,receber,liquidado,turpis eget elit sodales,704220.48,111121.06,2023/10/02,2023-08-28,6,2
+338,receber,liquidado,dapibus augue,167727.38,851431.41,2022/03/06,2021-10-24,26,1
+339,receber,liquidado,ac consequat metus,374915.57,865216.48,2023/03/31,2023-09-13,17,7
+340,pagar,aberto,rutrum nulla tellus in,525947.3,78994.22,2022/08/17,2023-07-06,2,2
+341,pagar,aberto,ipsum integer,193141.02,398449.36,2022/10/22,2022-08-06,77,4
+342,receber,aberto,in faucibus,303805.46,348242.81,2022/06/07,2022-09-22,30,8
+343,receber,aberto,eu sapien cursus vestibulum,870587.31,869719.99,2023/06/09,2022-09-17,25,9
+344,receber,liquidado,quam turpis adipiscing,584371.86,849706.21,2021/11/24,2024-06-01,7,1
+345,receber,aberto,primis in faucibus orci luctus,475334.85,284198.22,2022/07/04,2024-04-13,29,2
+346,pagar,aberto,lectus suspendisse,697560.45,141040.71,2022/03/16,2023-08-12,36,9
+347,receber,liquidado,ante ipsum primis,928639.86,342942.73,2024/05/03,2022-05-25,99,8
+348,receber,liquidado,est congue elementum in,70805.38,531695.56,2023/03/13,2024-07-21,67,8
+349,receber,liquidado,mattis egestas metus,4998.22,289266.12,2024/06/02,2022-04-11,98,1
+350,receber,liquidado,curabitur convallis duis consequat,442175.34,740854.35,2023/07/26,2021-09-24,41,5
+351,receber,aberto,in faucibus orci luctus,354630.67,713609.84,2021/11/22,2023-09-02,9,7
+352,pagar,liquidado,iaculis congue vivamus metus arcu,525233.41,634566.1,2023/03/05,2022-09-17,96,10
+353,pagar,liquidado,odio elementum,207983.49,403432.18,2021/11/13,2022-05-02,14,5
+354,pagar,liquidado,felis sed,889776.07,279943.36,2022/10/16,2022-11-27,24,3
+355,pagar,aberto,maecenas tincidunt,676283.28,269012.98,2023/10/20,2022-12-07,21,6
+356,receber,liquidado,a odio,460026.16,891174.54,2021/11/27,2021-12-13,17,10
+357,pagar,liquidado,nulla dapibus dolor vel est,786744.79,622220.18,2023/07/05,2024-07-06,20,9
+358,pagar,aberto,quisque id justo sit amet,465227.89,396188.07,2023/03/20,2022-06-05,46,6
+359,pagar,aberto,quis libero nullam,909704.97,268744.11,2021/11/29,2023-01-16,7,3
+360,pagar,aberto,enim blandit mi in,749451.24,230053.19,2023/07/01,2024-08-22,60,1
+361,pagar,aberto,aliquam quis,768569.1,240798.87,2022/05/24,2024-01-23,26,6
+362,receber,liquidado,mattis pulvinar nulla pede ullamcorper,875501.74,136378.17,2022/04/01,2022-01-05,16,5
+363,pagar,aberto,morbi quis tortor id nulla,135376.4,43953.64,2023/04/15,2022-10-18,100,3
+364,receber,aberto,ut nunc vestibulum ante,780151.87,20524.34,2024/08/31,2023-11-14,42,6
+365,receber,aberto,curabitur convallis duis,16846.67,663661.08,2022/07/15,2023-09-05,33,4
+366,receber,liquidado,aliquam quis,29942.53,64901.3,2021/12/21,2021-11-28,47,8
+367,receber,aberto,suspendisse ornare consequat lectus in,874957.91,287727.19,2022/09/17,2023-10-30,37,8
+368,pagar,liquidado,maecenas rhoncus aliquam lacus morbi,858890.3,237547.82,2024/08/31,2022-08-12,76,4
+369,receber,aberto,posuere cubilia curae nulla dapibus,499563.94,109671.42,2023/07/13,2024-07-05,6,7
+370,receber,aberto,aliquam quis,237609.54,22976.57,2022/05/09,2022-06-27,5,7
+371,receber,aberto,in sapien,941786.52,477170.55,2022/02/27,2023-10-01,69,2
+372,pagar,liquidado,nunc rhoncus,247484.17,71112.52,2023/01/28,2023-06-06,15,9
+373,receber,aberto,odio justo,244649.02,930354.44,2023/12/10,2023-07-29,16,8
+374,receber,liquidado,tellus in sagittis,266225.24,90763.7,2023/04/16,2023-07-21,98,3
+375,receber,aberto,in hac,938300.23,612327.61,2023/04/25,2021-11-02,89,6
+376,receber,aberto,donec posuere metus vitae,313002.8,263892.73,2022/03/23,2023-01-19,61,5
+377,pagar,aberto,magna vestibulum aliquet,181479.12,900101.94,2021/11/20,2022-06-27,66,7
+378,pagar,aberto,risus auctor sed tristique,936926.57,287473.79,2023/01/07,2022-03-20,68,5
+379,receber,aberto,a feugiat,433078.06,880925.25,2024/08/18,2023-11-06,87,8
+380,pagar,liquidado,fermentum donec ut,864522.0,475548.29,2022/11/16,2023-03-28,23,9
+381,receber,liquidado,tincidunt lacus,495832.28,688631.23,2022/09/29,2024-06-26,89,5
+382,pagar,liquidado,quis orci nullam,195856.87,24226.16,2023/06/30,2023-10-16,10,8
+383,pagar,aberto,nulla tempus vivamus in,364303.17,437803.95,2023/03/01,2024-07-24,45,3
+384,pagar,liquidado,tellus nulla ut erat,388280.87,25406.24,2021/12/09,2022-05-07,67,10
+385,receber,aberto,vehicula consequat morbi a ipsum,507795.73,955.01,2022/10/08,2022-03-18,35,5
+386,pagar,liquidado,sapien arcu sed augue aliquam,186145.52,334352.83,2023/02/12,2023-08-03,72,1
+387,pagar,liquidado,at velit eu,724141.63,518931.64,2022/09/20,2023-06-19,24,2
+388,pagar,liquidado,enim blandit mi in porttitor,825231.39,403600.22,2023/03/23,2022-10-01,6,1
+389,pagar,aberto,aliquet ultrices,429790.41,634400.85,2024/06/08,2023-06-07,13,4
+390,pagar,liquidado,lorem ipsum dolor sit amet,72179.18,62271.27,2021/11/10,2022-04-10,45,6
+391,pagar,aberto,mauris eget massa,163386.64,200556.09,2024/05/30,2022-02-02,41,5
+392,receber,liquidado,accumsan tellus nisi eu,94740.65,582961.54,2021/11/17,2023-10-05,48,6
+393,pagar,liquidado,volutpat convallis,424446.07,427829.61,2022/10/01,2023-01-18,65,5
+394,receber,liquidado,rhoncus dui vel,633040.86,956870.15,2022/03/07,2022-07-02,95,1
+395,pagar,liquidado,eget rutrum at lorem,811292.68,238660.84,2024/06/09,2024-05-02,17,4
+396,receber,liquidado,nonummy maecenas tincidunt lacus at,244120.56,11964.49,2023/12/01,2022-10-28,52,4
+397,receber,liquidado,id nulla,722556.65,849604.06,2024/04/12,2024-01-21,82,7
+398,receber,liquidado,amet nulla,930212.4,777861.02,2022/03/24,2022-02-23,41,6
+399,pagar,aberto,dapibus at diam nam tristique,10851.52,766912.98,2023/02/11,2023-09-27,75,3
+400,pagar,aberto,potenti cras in purus eu,582574.5,684144.18,2023/01/11,2021-11-07,39,6
+401,receber,liquidado,sed accumsan,411381.25,560409.09,2023/03/29,2024-04-08,36,1
+402,pagar,liquidado,elementum eu interdum eu,912184.6,777953.44,2023/01/19,2023-02-03,98,3
+403,pagar,liquidado,sit amet consectetuer,487394.73,87164.9,2024/06/19,2024-03-27,89,8
+404,pagar,aberto,consectetuer adipiscing elit,392245.59,997164.34,2024/07/05,2022-10-16,42,8
+405,receber,liquidado,sapien urna,144687.5,208961.06,2022/09/30,2023-10-21,19,7
+406,receber,aberto,vestibulum aliquet ultrices erat,222914.53,807600.41,2023/05/05,2024-04-27,30,10
+407,receber,liquidado,odio curabitur convallis duis,505795.5,466431.66,2024/09/01,2022-02-14,8,2
+408,receber,liquidado,sit amet justo,637578.31,731803.14,2023/12/01,2024-06-04,1,1
+409,receber,liquidado,porta volutpat quam,947176.17,967447.92,2022/07/18,2022-03-13,56,1
+410,receber,liquidado,est donec odio,199629.06,73053.7,2023/01/19,2023-05-19,39,6
+411,receber,liquidado,nulla integer pede justo,586218.65,202064.37,2024/04/07,2023-05-18,96,6
+412,pagar,liquidado,massa quis augue luctus tincidunt,267037.87,70492.99,2023/12/10,2023-03-20,5,6
+413,receber,aberto,platea dictumst etiam faucibus,153160.35,124299.02,2024/04/16,2022-02-26,47,3
+414,receber,liquidado,ante vivamus tortor duis mattis,464966.08,480801.69,2024/02/12,2024-06-04,10,1
+415,pagar,aberto,vivamus metus arcu adipiscing molestie,727292.07,539405.01,2022/03/01,2024-03-25,15,8
+416,pagar,aberto,ut dolor morbi,411918.35,412338.53,2021/11/05,2023-10-24,28,3
+417,pagar,aberto,gravida sem praesent,131266.69,796668.1,2024/02/04,2023-01-30,17,7
+418,pagar,aberto,pulvinar lobortis,170761.97,550927.2,2022/05/15,2022-10-20,96,8
+419,receber,liquidado,eu interdum eu tincidunt in,901309.39,822952.51,2024/02/05,2023-09-21,71,10
+420,pagar,aberto,consequat morbi a ipsum integer,875131.54,934754.82,2022/06/30,2022-07-30,24,3
+421,receber,aberto,sociis natoque penatibus et,905239.18,49404.24,2024/01/07,2023-07-15,66,7
+422,pagar,aberto,justo morbi ut,266728.23,353447.33,2022/12/27,2023-07-10,89,6
+423,pagar,aberto,tincidunt in,872159.4,645600.73,2022/07/22,2024-03-14,92,6
+424,receber,liquidado,eu massa,194703.31,65647.66,2023/02/17,2023-03-31,72,9
+425,receber,aberto,etiam pretium,323187.19,552144.49,2021/10/08,2022-01-20,2,4
+426,receber,aberto,sapien non mi,438114.57,579572.94,2023/05/22,2024-05-28,91,8
+427,receber,liquidado,nibh fusce lacus purus,904836.52,663305.99,2022/01/16,2023-01-01,42,5
+428,receber,aberto,ante vestibulum ante ipsum,399168.29,634210.16,2021/12/19,2022-08-03,14,9
+429,receber,aberto,enim in,190933.49,587595.9,2023/03/24,2023-09-11,1,9
+430,pagar,liquidado,ante ipsum primis in faucibus,350358.27,683191.34,2024/01/04,2023-11-15,19,3
+431,pagar,liquidado,a nibh,381348.94,364061.43,2023/03/22,2023-01-10,59,6
+432,pagar,aberto,amet justo,316972.62,590031.07,2021/10/22,2023-04-17,63,8
+433,receber,aberto,id sapien in sapien,109982.86,264751.48,2022/06/07,2024-05-14,40,9
+434,receber,liquidado,id nisl venenatis lacinia,227930.45,425330.91,2023/03/23,2024-03-12,21,1
+435,pagar,liquidado,at velit eu est,182848.84,692847.09,2022/10/02,2022-11-17,55,10
+436,pagar,liquidado,aliquam convallis nunc proin at,32198.23,830891.28,2024/04/14,2023-11-11,18,8
+437,pagar,aberto,consequat in consequat ut nulla,230475.56,959858.13,2023/08/13,2024-03-04,32,2
+438,pagar,liquidado,congue vivamus metus,708859.65,496739.89,2024/02/08,2023-05-30,86,7
+439,pagar,liquidado,volutpat dui maecenas,291307.57,809359.07,2021/09/23,2024-02-18,1,1
+440,pagar,liquidado,maecenas ut massa quis,849220.46,297166.88,2023/08/08,2022-02-26,65,3
+441,pagar,liquidado,eget nunc donec quis,256570.8,678609.62,2023/12/14,2024-07-13,92,7
+442,pagar,aberto,in sagittis,745777.35,144879.61,2024/08/04,2024-01-26,61,6
+443,pagar,aberto,sit amet diam in magna,842743.34,946331.21,2023/07/05,2024-03-06,90,10
+444,receber,aberto,convallis duis,57079.1,900367.31,2023/10/20,2024-06-12,86,1
+445,receber,liquidado,ultricies eu nibh quisque id,730847.59,175352.82,2023/04/21,2023-10-27,87,7
+446,receber,aberto,est lacinia nisi venenatis tristique,698479.54,164274.92,2022/08/13,2023-12-29,35,9
+447,pagar,aberto,fermentum donec ut mauris,762375.7,984029.43,2022/10/30,2024-08-19,34,3
+448,receber,liquidado,volutpat eleifend donec,502316.66,133514.94,2023/10/10,2022-10-28,17,7
+449,pagar,liquidado,massa quis augue luctus,377977.85,589066.32,2022/01/28,2023-03-16,5,2
+450,pagar,liquidado,habitasse platea dictumst etiam,262637.76,838964.14,2024/02/07,2024-07-13,56,4
+451,receber,liquidado,blandit mi in,140343.91,129723.23,2024/08/07,2021-11-16,7,6
+452,pagar,liquidado,sed justo,882031.28,888880.54,2024/08/18,2022-08-10,98,3
+453,pagar,liquidado,id pretium iaculis diam erat,70290.95,908577.37,2022/04/25,2023-01-16,34,1
+454,pagar,aberto,eget orci vehicula condimentum curabitur,510949.57,636195.33,2024/03/06,2022-09-03,7,10
+455,pagar,aberto,magna vestibulum,999378.23,221153.34,2024/08/17,2023-07-09,28,7
+456,pagar,aberto,justo nec,740914.68,312869.65,2023/04/19,2024-07-17,43,8
+457,pagar,liquidado,augue vestibulum rutrum rutrum neque,839371.66,381780.04,2023/01/11,2021-12-28,25,9
+458,pagar,aberto,in blandit,168940.97,382791.7,2023/01/29,2021-12-16,26,7
+459,pagar,aberto,vestibulum ante ipsum primis,289358.4,21162.68,2023/12/27,2021-09-15,20,8
+460,pagar,liquidado,est risus auctor sed,258541.31,31235.42,2024/04/19,2022-06-27,40,6
+461,receber,aberto,cras in,365627.3,613794.01,2023/08/07,2022-06-14,13,9
+462,pagar,aberto,eros suspendisse accumsan tortor quis,76306.47,150731.17,2023/03/23,2023-07-11,55,6
+463,receber,aberto,dapibus duis at velit eu,508351.66,817759.01,2022/12/13,2023-07-23,7,4
+464,receber,aberto,praesent id,214960.89,572238.82,2023/05/06,2022-11-17,68,1
+465,receber,liquidado,pretium iaculis diam erat fermentum,747240.9,416650.05,2023/02/10,2022-08-21,97,9
+466,pagar,liquidado,massa quis augue,218263.03,165968.43,2023/12/12,2024-05-03,14,9
+467,pagar,aberto,ullamcorper purus sit amet,136979.99,427927.48,2023/07/25,2021-12-08,85,6
+468,pagar,liquidado,lacinia eget,246722.15,243674.78,2023/12/27,2024-04-19,98,6
+469,pagar,aberto,ornare consequat lectus,926395.59,687523.24,2024/04/10,2024-08-23,15,9
+470,receber,liquidado,nisi nam,87447.36,670677.03,2024/01/12,2022-08-26,71,10
+471,receber,liquidado,morbi porttitor lorem id,696590.51,566153.02,2022/01/23,2023-12-30,8,1
+472,receber,liquidado,nisi eu orci,697215.83,193091.6,2023/02/13,2022-03-30,91,9
+473,receber,liquidado,ac neque duis,683640.8,148876.89,2022/02/16,2024-01-21,20,7
+474,receber,aberto,porttitor lacus at,458222.0,250754.22,2023/02/23,2022-08-28,3,1
+475,pagar,liquidado,vestibulum ante ipsum,987297.99,977067.88,2021/11/27,2022-04-04,33,3
+476,receber,aberto,dui vel,922345.48,667354.19,2022/04/16,2023-06-27,89,1
+477,pagar,aberto,non quam nec dui,480230.54,657617.91,2024/03/31,2024-03-08,23,10
+478,receber,aberto,blandit ultrices enim,356875.89,35639.85,2023/07/05,2024-02-29,67,3
+479,pagar,liquidado,dapibus dolor vel est,137335.72,229059.32,2024/05/04,2023-12-15,60,1
+480,pagar,aberto,vitae nisi nam ultrices libero,321070.01,135622.82,2022/03/14,2022-12-12,81,3
+481,receber,liquidado,turpis integer aliquet massa,90707.91,971306.92,2024/08/01,2024-08-22,57,4
+482,receber,aberto,vestibulum velit id pretium iaculis,725650.47,57866.78,2024/08/14,2022-02-12,78,7
+483,pagar,liquidado,sociis natoque penatibus et magnis,116974.07,43826.42,2024/04/06,2024-08-22,15,1
+484,receber,liquidado,neque duis,369397.22,302591.75,2023/10/10,2023-12-05,61,10
+485,pagar,aberto,ac tellus,421334.3,64225.82,2022/08/06,2023-06-03,23,7
+486,receber,liquidado,pellentesque quisque porta volutpat erat,507457.81,170517.82,2021/09/26,2023-06-24,32,5
+487,receber,liquidado,magna bibendum,357452.61,112218.16,2024/04/14,2022-05-19,1,8
+488,receber,aberto,mauris ullamcorper purus,17218.91,591419.05,2023/11/03,2022-10-15,21,7
+489,pagar,aberto,pellentesque eget nunc,53846.21,486307.82,2023/09/09,2022-05-06,4,2
+490,pagar,liquidado,sit amet,412110.22,493034.62,2024/02/11,2022-01-19,49,2
+491,pagar,aberto,ullamcorper augue a,525396.98,815802.86,2021/11/06,2022-03-25,13,1
+492,pagar,aberto,blandit nam nulla integer,605093.5,753980.55,2023/12/05,2022-05-23,41,7
+493,pagar,liquidado,sit amet eros,515408.79,946714.9,2022/10/02,2023-11-29,27,4
+494,pagar,liquidado,vel sem,753191.13,725581.9,2022/12/25,2023-04-05,34,5
+495,pagar,liquidado,et ultrices posuere cubilia,533312.96,543440.66,2023/10/22,2022-12-19,35,10
+496,receber,aberto,tellus nulla ut erat,822952.73,998312.87,2023/07/01,2023-11-14,56,10
+497,pagar,liquidado,parturient montes nascetur ridiculus,343146.38,404073.75,2024/06/29,2022-01-08,11,2
+498,receber,liquidado,penatibus et magnis dis parturient,382531.79,834197.64,2022/12/11,2024-06-01,20,9
+499,receber,liquidado,aliquet at feugiat,402770.78,485025.42,2024/01/28,2022-11-30,40,6
+500,receber,aberto,suspendisse accumsan tortor,417121.38,591236.57,2024/05/24,2024-04-20,84,1
+501,pagar,liquidado,vitae mattis nibh,457950.92,229982.83,2022/11/21,2022-08-18,6,7
+502,receber,liquidado,mi in,644280.69,192892.16,2024/02/04,2022-06-21,64,5
+503,pagar,aberto,donec pharetra,966320.62,964697.27,2022/11/05,2023-01-29,9,4
+504,pagar,aberto,duis consequat dui nec,881833.49,646383.93,2023/08/08,2023-02-27,82,4
+505,pagar,liquidado,ante vel ipsum praesent blandit,130918.43,974720.84,2023/05/01,2023-07-18,65,10
+506,receber,aberto,consequat metus sapien ut,193338.32,405719.24,2023/09/08,2022-01-07,75,6
+507,receber,aberto,cubilia curae,46973.56,600058.12,2022/03/27,2023-11-24,79,3
+508,pagar,liquidado,odio cras,423948.82,923608.03,2022/05/09,2021-10-23,90,9
+509,receber,aberto,hac habitasse platea dictumst maecenas,852165.04,180940.1,2022/06/24,2022-01-29,49,5
+510,pagar,aberto,integer non velit donec,958424.08,533613.28,2023/05/30,2022-05-01,39,2
+511,pagar,aberto,sed vestibulum sit,149005.45,762458.36,2023/09/04,2024-07-08,43,10
+512,pagar,aberto,volutpat eleifend donec ut,328239.04,897318.41,2024/05/29,2023-11-12,21,6
+513,pagar,liquidado,morbi porttitor lorem,96615.08,665365.83,2023/10/23,2022-10-12,71,8
+514,receber,liquidado,quis libero nullam,898322.63,823481.67,2024/08/29,2024-01-31,13,7
+515,receber,aberto,mauris sit,185513.73,969849.25,2023/09/03,2024-04-16,58,6
+516,receber,aberto,sapien arcu sed augue aliquam,342354.42,772584.86,2023/01/19,2023-01-20,66,5
+517,pagar,liquidado,eget eleifend luctus,615591.01,900822.29,2021/12/04,2022-04-11,59,5
+518,receber,aberto,feugiat non,559374.57,737910.73,2022/11/21,2022-11-02,31,2
+519,receber,aberto,consequat varius integer ac leo,729586.05,565058.12,2023/07/30,2023-10-29,23,1
+520,receber,liquidado,nisi nam ultrices,761367.66,276418.26,2024/03/07,2024-07-10,76,6
+521,pagar,liquidado,sed vel,398395.99,622269.83,2024/04/18,2023-07-12,3,7
+522,receber,aberto,velit vivamus vel,931357.23,172276.67,2023/07/31,2023-09-23,81,4
+523,pagar,liquidado,diam cras pellentesque,251357.79,586284.72,2022/08/21,2023-11-01,41,5
+524,pagar,aberto,pretium iaculis diam erat fermentum,553369.69,269957.58,2022/11/04,2024-08-31,14,10
+525,pagar,aberto,bibendum morbi,519649.64,332550.74,2022/12/20,2024-03-01,31,2
+526,pagar,aberto,porttitor pede,746472.8,77013.87,2023/07/08,2023-05-01,25,4
+527,pagar,liquidado,dis parturient montes,282221.93,670794.9,2024/08/24,2022-11-30,49,8
+528,receber,liquidado,hac habitasse platea,964740.37,627318.95,2022/11/27,2024-09-04,77,10
+529,receber,aberto,ut volutpat sapien arcu sed,371128.35,831882.47,2021/09/07,2023-05-05,31,7
+530,receber,liquidado,lorem ipsum dolor,544602.07,525392.0,2023/11/12,2023-12-02,66,3
+531,pagar,aberto,donec semper sapien,129459.11,716281.66,2024/03/06,2024-03-11,92,5
+532,receber,liquidado,id pretium iaculis diam,690009.75,148829.1,2024/01/02,2024-02-08,61,5
+533,receber,aberto,lacus curabitur at ipsum ac,215019.22,443717.51,2023/05/09,2022-08-09,41,8
+534,receber,aberto,ultrices mattis,566625.53,92862.12,2022/01/01,2022-01-27,7,3
+535,pagar,liquidado,congue elementum in hac,327590.13,114995.27,2022/01/27,2021-10-20,57,4
+536,receber,aberto,rhoncus mauris,811390.52,828171.41,2023/09/26,2023-10-22,92,5
+537,pagar,aberto,pretium iaculis,617191.22,114680.71,2023/07/25,2021-10-18,79,9
+538,receber,aberto,diam id ornare imperdiet,151942.57,499414.21,2024/03/09,2023-07-31,1,2
+539,receber,liquidado,quam nec dui luctus rutrum,214854.31,267226.62,2021/12/23,2024-02-22,84,8
+540,receber,liquidado,blandit lacinia erat,841967.74,873909.42,2021/11/24,2023-10-21,93,3
+541,pagar,aberto,pede justo eu massa,960350.78,889241.77,2022/08/13,2022-06-23,24,10
+542,pagar,aberto,rutrum neque aenean auctor,525087.01,525950.45,2022/05/16,2022-11-25,30,2
+543,pagar,liquidado,nunc nisl,989628.42,598889.5,2023/09/11,2022-11-21,66,5
+544,receber,aberto,ipsum primis in faucibus,780850.61,165660.02,2023/06/08,2022-10-17,76,6
+545,receber,aberto,eget tincidunt eget tempus,314749.4,570760.7,2021/11/08,2022-08-02,36,9
+546,pagar,aberto,vivamus vestibulum sagittis,838881.4,16293.27,2021/09/27,2023-11-18,73,10
+547,pagar,aberto,orci pede venenatis,581875.82,634783.94,2022/05/04,2022-10-08,9,7
+548,receber,aberto,nascetur ridiculus,876292.8,187875.07,2021/11/19,2023-09-27,89,8
+549,pagar,liquidado,orci luctus et ultrices,541379.61,296223.84,2024/07/11,2022-07-16,28,6
+550,receber,aberto,libero non mattis pulvinar,550962.09,990187.94,2023/09/16,2023-06-29,21,7
+551,pagar,aberto,congue diam id ornare,103647.68,73568.69,2023/05/31,2023-10-17,48,7
+552,receber,liquidado,congue vivamus metus arcu,721059.37,732374.32,2022/10/08,2024-02-04,90,9
+553,pagar,aberto,non pretium quis,516170.78,441652.04,2023/05/07,2022-05-25,34,3
+554,receber,liquidado,lorem ipsum dolor sit amet,712987.06,434193.95,2023/06/10,2022-09-19,68,6
+555,pagar,aberto,felis eu sapien,78577.33,452066.43,2023/07/26,2024-07-11,44,8
+556,receber,aberto,turpis a pede posuere,165661.48,677845.0,2023/03/04,2024-04-25,48,9
+557,pagar,liquidado,fermentum justo,535075.45,517358.66,2023/11/17,2023-07-02,18,8
+558,pagar,aberto,justo pellentesque viverra,445508.86,243454.85,2022/06/16,2024-08-02,73,9
+559,receber,liquidado,donec quis,428260.28,59326.62,2024/06/14,2022-03-02,98,1
+560,receber,liquidado,bibendum morbi non quam nec,631941.26,214087.49,2024/08/21,2021-10-29,42,2
+561,receber,liquidado,lobortis ligula,591605.92,546458.86,2023/01/02,2024-02-08,39,5
+562,pagar,aberto,tristique in tempus sit amet,643396.3,251292.63,2024/07/14,2023-10-05,16,7
+563,pagar,liquidado,dui luctus rutrum nulla tellus,506696.37,309302.67,2022/07/17,2023-11-03,88,6
+564,pagar,aberto,pharetra magna ac consequat,685569.83,20837.62,2022/02/03,2024-06-26,11,6
+565,pagar,aberto,blandit ultrices enim,167583.51,841443.46,2024/04/18,2024-02-18,57,2
+566,pagar,aberto,id mauris vulputate elementum,437594.62,219622.94,2022/03/24,2023-10-30,16,5
+567,receber,liquidado,pede morbi porttitor lorem,422016.31,332580.57,2024/05/06,2023-11-11,14,5
+568,pagar,aberto,blandit ultrices enim,429861.95,455786.51,2024/05/04,2021-09-24,23,6
+569,pagar,liquidado,ut blandit non,628601.71,860963.78,2023/12/10,2023-12-30,64,10
+570,receber,aberto,sociis natoque penatibus,866486.84,561314.64,2023/12/22,2021-09-11,51,7
+571,receber,aberto,est lacinia nisi venenatis,894437.56,41715.02,2024/03/05,2022-03-05,13,8
+572,receber,aberto,quis orci nullam,936588.82,926996.79,2021/09/15,2024-01-04,83,9
+573,pagar,aberto,aliquet pulvinar sed nisl,922045.71,178928.43,2023/11/06,2023-05-12,91,3
+574,receber,liquidado,in tempus sit amet sem,709205.45,948808.18,2022/09/05,2022-07-10,51,9
+575,receber,aberto,lacinia aenean sit,584201.26,402506.5,2022/10/13,2023-07-27,13,9
+576,pagar,liquidado,velit nec nisi vulputate,891968.4,771641.13,2022/08/02,2024-01-20,14,10
+577,pagar,liquidado,leo pellentesque,920188.84,388958.16,2022/05/16,2023-05-13,83,5
+578,pagar,liquidado,hac habitasse platea,954065.27,305669.51,2022/01/17,2022-04-01,37,4
+579,pagar,aberto,tempus sit amet sem,220241.1,115918.0,2024/07/16,2023-12-23,36,7
+580,receber,aberto,pellentesque eget nunc donec quis,268258.59,566022.89,2022/04/22,2023-11-09,59,2
+581,pagar,aberto,porttitor lorem id ligula,362424.01,260564.23,2022/08/17,2022-10-28,87,5
+582,pagar,aberto,mattis nibh ligula nec,142301.15,732328.64,2022/09/10,2023-05-17,93,10
+583,pagar,aberto,magna at nunc,704804.56,480435.25,2023/03/06,2021-09-06,95,7
+584,receber,liquidado,consequat metus sapien ut,513542.44,224458.68,2023/10/25,2022-11-24,43,5
+585,pagar,aberto,lacus at turpis,910291.97,63708.63,2022/02/01,2023-11-19,65,8
+586,receber,liquidado,sed accumsan,649824.71,911688.52,2024/04/02,2024-03-04,27,3
+587,pagar,liquidado,morbi odio odio,483760.36,808170.07,2022/01/16,2024-01-13,7,8
+588,pagar,aberto,in hac habitasse platea dictumst,356574.44,234813.61,2022/06/13,2021-10-08,85,1
+589,receber,aberto,pellentesque viverra pede,707575.07,201415.82,2024/04/14,2022-01-27,79,8
+590,receber,aberto,at nunc commodo,883831.52,292186.75,2023/07/17,2022-04-16,49,1
+591,pagar,aberto,in imperdiet et commodo,962618.48,77910.81,2022/09/20,2022-07-17,89,10
+592,pagar,liquidado,in ante vestibulum ante ipsum,908506.19,315863.25,2023/08/02,2022-02-26,60,7
+593,pagar,aberto,quis augue,237106.99,895768.62,2021/12/09,2022-05-26,46,6
+594,pagar,aberto,consequat ut nulla,412829.85,395566.65,2022/01/08,2022-02-19,41,2
+595,pagar,liquidado,nisl nunc,656963.88,475169.87,2024/08/03,2022-01-26,24,9
+596,receber,liquidado,id consequat in,103191.44,40409.8,2022/03/08,2022-06-16,100,7
+597,pagar,liquidado,vulputate vitae nisl aenean,460034.69,199520.46,2022/11/09,2021-10-10,69,3
+598,pagar,liquidado,dolor quis odio,519241.93,836340.26,2022/02/25,2024-01-01,7,6
+599,pagar,aberto,rutrum nulla tellus in sagittis,592818.67,775469.96,2022/06/22,2024-08-31,40,10
+600,pagar,aberto,convallis nulla,338028.48,996409.27,2023/04/10,2022-03-28,1,9
+601,receber,aberto,id consequat,857412.42,748651.2,2021/11/30,2024-06-21,32,3
+602,pagar,aberto,felis sed lacus morbi,663335.75,820197.47,2023/07/13,2024-02-06,11,8
+603,pagar,aberto,turpis sed,994044.16,292159.21,2024/06/15,2023-06-04,69,6
+604,receber,liquidado,et ultrices posuere cubilia curae,501343.65,378173.38,2022/11/19,2021-11-11,61,7
+605,pagar,liquidado,id mauris vulputate elementum nullam,712454.57,207628.57,2023/02/05,2023-09-04,92,10
+606,receber,liquidado,mauris viverra diam vitae,15665.24,772990.35,2022/01/13,2023-07-06,14,10
+607,receber,aberto,ante ipsum primis,975242.01,838205.54,2023/12/26,2023-10-21,13,1
+608,pagar,liquidado,urna pretium nisl ut volutpat,759104.7,175941.17,2023/01/10,2024-02-18,77,10
+609,receber,liquidado,in lectus pellentesque,856183.18,842245.86,2021/12/10,2023-04-01,77,10
+610,receber,liquidado,ultrices libero,372614.26,291867.68,2023/11/25,2022-07-07,31,1
+611,pagar,aberto,amet consectetuer,404456.74,712541.39,2023/10/10,2022-04-21,47,3
+612,pagar,aberto,mattis nibh ligula,798911.57,123887.34,2023/01/22,2023-03-31,7,2
+613,receber,aberto,nullam molestie nibh in lectus,317423.26,614847.14,2024/02/02,2022-06-28,54,2
+614,pagar,aberto,integer a nibh,403089.16,113084.12,2023/03/23,2023-01-01,37,7
+615,receber,aberto,diam cras pellentesque,369100.69,80493.47,2022/11/07,2023-03-07,8,8
+616,pagar,liquidado,nulla nisl nunc nisl duis,151127.79,302646.54,2022/01/21,2022-10-30,30,4
+617,receber,aberto,orci nullam molestie nibh in,258747.41,959021.1,2021/09/20,2023-10-11,91,4
+618,receber,aberto,praesent blandit lacinia erat,321337.62,963408.89,2022/06/13,2024-07-04,83,8
+619,pagar,liquidado,platea dictumst aliquam augue,449120.02,73748.76,2024/08/30,2023-10-18,18,7
+620,pagar,liquidado,consequat in consequat ut,745431.96,53839.13,2022/05/23,2024-08-05,36,8
+621,pagar,liquidado,arcu adipiscing,112972.57,98311.34,2024/08/29,2023-11-15,26,4
+622,receber,liquidado,maecenas pulvinar lobortis est,81366.45,268237.17,2023/07/11,2022-10-11,82,9
+623,pagar,liquidado,dignissim vestibulum vestibulum ante,408961.01,592568.16,2022/08/02,2024-05-22,17,6
+624,receber,liquidado,ac nibh fusce lacus,567582.29,28719.99,2021/11/01,2023-08-31,63,7
+625,pagar,aberto,blandit ultrices enim,38870.65,450188.06,2022/09/25,2023-05-16,16,4
+626,pagar,aberto,sit amet,295944.17,151966.74,2022/06/15,2023-03-13,78,4
+627,pagar,aberto,lorem vitae,668435.44,32273.04,2022/11/03,2021-11-05,58,1
+628,receber,aberto,curae duis,514181.15,897140.58,2024/04/18,2023-11-06,86,3
+629,receber,liquidado,pulvinar lobortis est,819056.9,941804.64,2022/04/04,2021-11-27,77,5
+630,pagar,aberto,augue vestibulum,521145.26,223837.05,2023/09/18,2023-05-24,73,4
+631,receber,aberto,feugiat non pretium quis,754841.83,281569.79,2021/11/05,2024-07-05,12,6
+632,pagar,liquidado,ultrices posuere cubilia curae,113930.72,395188.8,2021/11/27,2022-09-07,46,8
+633,pagar,aberto,ac leo pellentesque ultrices mattis,312254.22,332643.21,2022/07/17,2023-12-14,92,2
+634,pagar,aberto,risus semper porta volutpat,381494.87,926221.03,2022/10/24,2022-11-26,17,3
+635,receber,liquidado,erat tortor sollicitudin mi sit,168279.01,973540.84,2023/08/23,2022-04-14,68,9
+636,receber,liquidado,eleifend luctus ultricies,405240.42,48802.49,2023/05/03,2022-05-29,87,5
+637,pagar,aberto,habitasse platea dictumst,163654.0,166331.78,2023/09/19,2024-07-02,23,4
+638,pagar,aberto,quam sollicitudin vitae consectetuer,341393.38,775739.74,2023/02/03,2022-04-04,78,10
+639,receber,liquidado,tincidunt lacus at velit vivamus,536114.57,852758.79,2022/12/29,2022-12-10,10,4
+640,receber,liquidado,donec dapibus duis at,559221.58,642652.66,2023/11/30,2022-06-02,89,6
+641,receber,aberto,a odio in hac,602517.2,636782.29,2023/04/14,2023-06-07,84,10
+642,receber,liquidado,accumsan felis,881385.79,579600.78,2023/07/30,2022-01-29,34,10
+643,receber,liquidado,nascetur ridiculus mus vivamus vestibulum,502586.8,592018.67,2024/02/03,2023-02-07,54,7
+644,receber,aberto,nisi at nibh in,98802.33,181560.55,2021/10/02,2024-05-09,82,10
+645,receber,liquidado,ligula sit amet,669529.66,108667.01,2024/02/18,2021-09-18,58,10
+646,pagar,liquidado,nibh in lectus pellentesque at,712879.88,808496.05,2023/10/30,2024-04-14,37,10
+647,receber,aberto,ligula pellentesque ultrices phasellus,100257.79,82719.21,2024/08/15,2023-09-22,6,2
+648,receber,liquidado,nulla ultrices,957468.18,510125.92,2022/09/17,2022-06-30,48,6
+649,pagar,aberto,sociis natoque penatibus,64373.57,845612.42,2023/12/15,2024-06-06,92,3
+650,receber,liquidado,a odio,982831.03,351687.53,2021/11/09,2021-11-26,60,8
+651,receber,liquidado,posuere cubilia curae duis faucibus,9042.18,666772.9,2024/01/07,2023-05-05,77,1
+652,pagar,aberto,in sapien iaculis congue,622867.28,133449.3,2022/11/23,2022-08-23,87,8
+653,pagar,liquidado,tincidunt eu felis,835204.92,510373.11,2023/07/10,2023-10-29,88,8
+654,receber,aberto,ligula pellentesque ultrices phasellus,695468.63,823652.07,2023/04/29,2024-08-11,67,9
+655,pagar,liquidado,justo sit amet sapien dignissim,934812.87,483497.97,2024/03/04,2022-01-25,22,6
+656,pagar,aberto,amet sapien dignissim vestibulum vestibulum,887616.01,239658.4,2024/07/17,2022-06-16,26,3
+657,receber,liquidado,sapien placerat ante nulla,932501.82,661310.18,2024/02/26,2021-09-17,70,1
+658,receber,liquidado,turpis a pede posuere nonummy,364228.32,528179.08,2022/09/15,2024-03-27,89,6
+659,receber,aberto,rhoncus aliquam lacus morbi,223604.61,732947.48,2022/05/27,2022-03-02,54,9
+660,pagar,aberto,nisi nam ultrices libero,388781.88,82629.15,2024/06/03,2023-07-10,40,2
+661,receber,liquidado,suscipit ligula in lacus curabitur,841093.11,988427.16,2021/11/04,2022-02-21,58,5
+662,receber,aberto,bibendum felis sed interdum venenatis,728880.03,613377.01,2022/09/14,2024-01-23,85,5
+663,receber,aberto,aliquam lacus,468002.55,879829.68,2023/07/29,2023-05-22,27,3
+664,pagar,liquidado,quis turpis sed,495972.09,445056.69,2021/11/07,2021-11-10,5,3
+665,pagar,liquidado,est quam,442760.6,2581.34,2022/09/09,2024-02-07,12,5
+666,pagar,aberto,at feugiat non,612658.21,678230.89,2023/04/24,2022-02-09,66,1
+667,pagar,liquidado,eget semper rutrum,784017.85,221172.74,2023/02/28,2024-04-29,51,2
+668,receber,liquidado,condimentum id,131671.63,663505.07,2023/01/05,2023-07-09,24,9
+669,pagar,liquidado,elementum in hac habitasse,887054.61,296938.57,2024/08/26,2022-08-29,55,3
+670,receber,aberto,et eros vestibulum ac,184952.61,171526.63,2024/04/30,2022-03-04,18,6
+671,receber,aberto,orci mauris lacinia sapien,533495.58,522136.45,2023/09/18,2022-12-02,78,10
+672,receber,aberto,ipsum primis,515315.23,248039.06,2023/09/15,2022-11-28,16,10
+673,pagar,liquidado,ridiculus mus etiam,567054.01,784567.47,2022/06/13,2024-06-10,15,1
+674,pagar,liquidado,donec dapibus duis,878480.36,258850.2,2023/08/20,2023-11-04,54,5
+675,pagar,aberto,morbi a ipsum integer a,957365.97,322582.63,2022/09/22,2023-11-22,46,10
+676,receber,aberto,imperdiet sapien urna,194259.8,190752.88,2021/12/31,2022-07-07,23,8
+677,receber,liquidado,ullamcorper augue a,50097.72,583116.69,2021/12/18,2022-03-03,65,9
+678,receber,liquidado,elementum in hac habitasse platea,85670.38,599604.58,2021/09/09,2024-02-27,60,4
+679,receber,aberto,cras non velit nec nisi,127130.46,288805.12,2022/12/17,2022-08-13,92,3
+680,receber,aberto,in libero ut massa,228108.49,709483.38,2024/03/24,2022-11-18,99,1
+681,pagar,aberto,nulla sed accumsan felis,353057.88,17606.44,2022/08/30,2024-02-08,69,10
+682,pagar,liquidado,quis libero,210950.93,521701.76,2024/02/20,2021-10-05,10,8
+683,pagar,liquidado,vestibulum velit id pretium iaculis,412355.53,780858.75,2022/08/03,2022-10-09,41,4
+684,receber,liquidado,varius ut,320649.09,565678.17,2022/09/08,2023-11-13,33,8
+685,pagar,aberto,pharetra magna ac,527486.94,137635.56,2023/04/28,2022-10-02,47,7
+686,pagar,aberto,tristique tortor eu pede,762321.35,133951.05,2023/12/09,2022-11-21,37,2
+687,pagar,liquidado,pellentesque ultrices mattis,458269.64,493135.88,2022/08/19,2023-03-30,81,5
+688,receber,liquidado,ut blandit non interdum in,563780.26,953615.68,2024/05/29,2022-05-26,50,4
+689,pagar,liquidado,ut massa,603040.81,459319.45,2023/01/14,2024-08-05,95,6
+690,pagar,liquidado,est quam pharetra,39398.21,311996.72,2022/06/08,2022-06-03,33,9
+691,receber,aberto,habitasse platea dictumst maecenas,891919.79,679550.41,2024/02/24,2024-02-07,4,8
+692,pagar,aberto,odio condimentum id,670840.02,694961.47,2023/03/03,2022-04-21,36,10
+693,receber,aberto,ligula nec sem duis,802409.17,418240.77,2023/02/08,2023-03-10,15,6
+694,receber,aberto,erat tortor,40432.55,400968.87,2022/10/29,2023-09-26,61,6
+695,receber,liquidado,erat tortor sollicitudin mi sit,769748.56,567318.74,2022/01/31,2022-10-13,40,3
+696,receber,aberto,enim sit amet nunc,701429.65,512299.21,2022/03/29,2024-01-08,80,1
+697,receber,liquidado,praesent id,672364.48,928355.55,2022/10/21,2023-08-24,75,8
+698,pagar,liquidado,sapien quis libero,761519.29,42714.5,2023/08/14,2023-07-03,56,8
+699,receber,aberto,curabitur gravida nisi at nibh,331110.01,27544.95,2024/06/06,2023-03-27,6,1
+700,receber,liquidado,in est risus,616883.5,913785.44,2023/11/11,2021-11-01,91,2
+701,pagar,aberto,vestibulum vestibulum,692861.21,318050.59,2022/08/21,2024-06-05,95,9
+702,pagar,liquidado,non mauris,921428.95,815589.68,2023/08/29,2022-06-05,59,4
+703,receber,liquidado,consequat nulla,416875.22,454301.64,2022/05/28,2022-04-27,31,4
+704,receber,liquidado,justo in blandit ultrices,175048.16,368601.01,2022/11/23,2024-08-17,11,7
+705,receber,aberto,vestibulum sed magna,794055.5,640920.74,2023/02/17,2022-05-15,19,10
+706,pagar,aberto,pede morbi porttitor,316509.41,974959.98,2022/12/09,2024-04-29,75,4
+707,pagar,liquidado,nonummy maecenas tincidunt lacus at,464216.05,142652.09,2022/07/18,2021-10-05,6,7
+708,receber,liquidado,id massa id nisl venenatis,736871.9,944430.59,2023/01/10,2024-02-24,82,9
+709,receber,aberto,nullam porttitor lacus at turpis,571668.2,775060.39,2023/03/15,2022-03-16,81,3
+710,pagar,liquidado,malesuada in,5683.03,203764.64,2022/12/26,2024-01-26,25,8
+711,receber,aberto,non sodales,934196.09,538277.83,2024/08/16,2024-01-09,2,5
+712,receber,aberto,scelerisque mauris sit,669726.8,343284.96,2022/08/01,2023-07-06,60,7
+713,receber,aberto,mauris ullamcorper purus sit,322093.63,49606.97,2024/02/17,2022-04-19,57,3
+714,receber,liquidado,ornare imperdiet,970950.22,340588.04,2022/01/15,2023-12-18,98,10
+715,pagar,liquidado,integer ac,180089.39,951375.86,2022/10/01,2024-04-07,84,3
+716,pagar,liquidado,ac neque duis,453261.03,128245.5,2024/03/04,2024-02-01,5,7
+717,pagar,liquidado,enim leo rhoncus sed,956362.45,778184.91,2022/04/17,2022-01-13,1,9
+718,receber,liquidado,habitasse platea dictumst morbi,548782.05,955599.44,2022/11/05,2024-08-10,8,8
+719,pagar,liquidado,iaculis congue vivamus metus,175396.28,842904.79,2022/04/14,2023-03-01,53,1
+720,receber,liquidado,ultrices mattis odio donec vitae,578422.46,872681.13,2024/07/27,2023-02-18,31,5
+721,receber,liquidado,cras in purus,779587.85,890040.4,2023/04/13,2024-04-09,27,2
+722,receber,liquidado,sociis natoque penatibus et magnis,887741.65,922492.85,2023/04/20,2024-06-09,100,4
+723,pagar,liquidado,enim in tempor turpis,937667.56,616650.05,2023/01/07,2023-04-16,5,1
+724,pagar,liquidado,sapien urna pretium nisl ut,347869.29,619616.52,2023/01/29,2024-08-26,2,2
+725,receber,liquidado,pellentesque eget nunc,967663.66,185302.35,2022/10/07,2024-06-05,58,2
+726,pagar,liquidado,feugiat non pretium quis,866491.88,305595.71,2024/01/18,2022-06-23,84,1
+727,pagar,aberto,consectetuer adipiscing elit,883514.79,123904.38,2023/06/28,2023-03-05,57,3
+728,receber,liquidado,enim in tempor,329141.51,388480.51,2023/11/03,2024-04-07,46,8
+729,receber,aberto,amet justo morbi,267713.9,440271.99,2024/06/27,2024-05-11,75,10
+730,pagar,aberto,et ultrices posuere cubilia curae,146989.36,181851.31,2022/05/20,2023-05-14,48,7
+731,receber,liquidado,nisl ut volutpat,203233.05,885204.19,2024/01/27,2022-01-27,90,10
+732,receber,liquidado,mauris enim leo rhoncus sed,137881.31,561802.69,2024/08/04,2022-11-05,63,2
+733,pagar,liquidado,mauris sit amet,422430.84,213335.6,2024/05/14,2023-02-01,80,3
+734,pagar,aberto,habitasse platea dictumst etiam faucibus,781208.79,958376.67,2022/12/20,2023-09-07,34,10
+735,receber,aberto,tristique est,621251.66,725517.72,2022/02/01,2022-04-27,14,2
+736,receber,aberto,primis in faucibus orci luctus,959426.67,207458.9,2023/12/12,2023-07-19,32,4
+737,pagar,liquidado,consequat dui nec nisi,397351.48,195537.83,2022/09/12,2021-12-05,70,6
+738,pagar,liquidado,adipiscing lorem vitae,386306.82,276152.62,2021/09/27,2023-12-23,76,5
+739,pagar,liquidado,in tempus sit amet sem,226361.07,940094.15,2024/03/27,2023-03-05,69,3
+740,pagar,aberto,amet consectetuer adipiscing elit,101012.12,247365.84,2022/11/02,2024-05-17,28,10
+741,pagar,liquidado,tellus in sagittis dui,999816.54,715961.39,2024/08/27,2024-02-18,58,5
+742,receber,aberto,tortor quis turpis,762448.86,186785.45,2023/04/07,2022-10-06,99,4
+743,receber,liquidado,pede libero,739800.79,177052.05,2023/01/08,2023-07-06,75,2
+744,pagar,liquidado,orci luctus,482181.2,433411.03,2023/08/17,2021-12-31,2,1
+745,pagar,liquidado,at ipsum ac tellus,69141.64,172206.31,2024/02/13,2022-07-13,56,7
+746,pagar,aberto,at nibh in hac,17034.99,3208.74,2021/10/10,2023-01-30,24,8
+747,pagar,liquidado,vitae consectetuer eget,109947.45,60008.14,2022/09/25,2024-04-23,63,8
+748,pagar,aberto,amet diam,286707.67,411106.87,2022/12/31,2024-09-02,98,1
+749,receber,aberto,curae mauris viverra diam vitae,799847.87,500063.35,2021/09/11,2024-06-01,20,3
+750,receber,aberto,eu magna vulputate luctus cum,750323.76,980391.34,2023/10/30,2023-07-15,56,5
+751,pagar,aberto,curabitur convallis duis,39431.06,183341.34,2021/09/29,2022-08-30,98,7
+752,pagar,aberto,integer a nibh,680140.25,997184.47,2023/09/11,2024-08-19,50,4
+753,receber,liquidado,ut nunc vestibulum ante ipsum,825976.66,101487.5,2022/08/14,2024-02-24,76,1
+754,pagar,aberto,vitae nisl,443635.73,666548.52,2023/12/20,2021-10-23,10,8
+755,pagar,liquidado,nam nulla integer pede justo,553722.92,619696.12,2023/09/24,2023-02-24,63,1
+756,receber,liquidado,risus auctor sed tristique in,204101.85,953371.32,2022/03/23,2023-09-17,54,1
+757,pagar,liquidado,sagittis dui,601627.21,237101.16,2022/09/29,2023-03-28,79,7
+758,receber,aberto,non mi integer ac neque,371114.51,682770.77,2023/10/04,2023-12-22,48,3
+759,receber,liquidado,sapien dignissim vestibulum vestibulum,105979.48,875312.22,2022/09/23,2022-10-17,24,4
+760,pagar,liquidado,at vulputate vitae,304527.1,598120.46,2021/09/10,2024-08-12,70,5
+761,receber,aberto,eu nibh quisque id justo,237477.72,676499.38,2022/04/25,2024-01-21,50,1
+762,receber,aberto,maecenas pulvinar lobortis est,202773.99,270816.17,2022/09/22,2022-04-22,71,10
+763,pagar,aberto,praesent id,195195.86,790695.71,2022/07/29,2022-08-09,44,2
+764,pagar,liquidado,mauris lacinia sapien quis libero,911323.33,276342.08,2023/05/04,2022-06-14,16,7
+765,receber,aberto,ipsum primis in faucibus,929742.44,653009.22,2023/07/06,2023-11-06,40,9
+766,pagar,aberto,aenean fermentum donec ut,460648.78,592148.98,2022/04/27,2022-11-09,53,5
+767,pagar,liquidado,quisque id justo,390648.56,471079.14,2022/03/11,2024-02-09,65,10
+768,pagar,aberto,varius nulla,299080.76,909109.27,2023/05/20,2023-04-26,1,10
+769,receber,liquidado,sagittis sapien cum sociis natoque,550994.22,623599.71,2024/03/16,2024-01-17,11,6
+770,receber,liquidado,in faucibus orci luctus,658979.01,170504.71,2021/12/05,2024-04-03,66,7
+771,pagar,aberto,potenti nullam,687309.09,12529.09,2023/06/20,2022-04-05,34,10
+772,receber,liquidado,leo maecenas pulvinar,355281.09,360392.27,2022/08/01,2022-03-23,21,8
+773,receber,aberto,libero non mattis,62895.25,772563.25,2022/06/03,2022-01-27,12,8
+774,receber,liquidado,phasellus in,522957.99,904419.21,2021/11/22,2023-08-09,78,5
+775,pagar,liquidado,nulla facilisi cras non,963786.21,334247.25,2022/12/23,2022-10-26,39,5
+776,pagar,aberto,sapien cum sociis natoque penatibus,421128.64,878707.74,2022/04/23,2021-10-11,89,9
+777,receber,aberto,nisl duis ac nibh fusce,119542.88,481177.02,2024/03/29,2024-08-09,100,6
+778,pagar,liquidado,elementum eu interdum eu tincidunt,343426.67,544769.84,2023/10/18,2022-11-06,2,8
+779,pagar,aberto,ligula sit amet,521188.83,532447.75,2023/08/24,2022-10-21,12,9
+780,receber,aberto,eget tincidunt,316518.26,79560.01,2023/01/22,2022-08-13,35,8
+781,receber,aberto,cursus vestibulum,485511.0,221218.54,2023/07/11,2023-04-17,91,3
+782,receber,liquidado,nonummy maecenas tincidunt lacus at,333950.69,429828.37,2024/04/23,2023-02-28,17,10
+783,receber,liquidado,rutrum nulla,382029.75,744616.72,2023/09/24,2023-09-30,42,1
+784,receber,liquidado,integer a,641935.62,602871.08,2024/02/08,2024-01-14,83,5
+785,receber,aberto,vel augue,930617.45,965852.02,2023/12/18,2021-10-06,54,1
+786,receber,liquidado,lectus suspendisse potenti in eleifend,93403.29,830484.92,2022/07/30,2023-10-02,71,10
+787,pagar,liquidado,ut massa,387289.32,519535.27,2024/07/03,2021-09-17,50,10
+788,receber,liquidado,pellentesque at,637732.18,479629.87,2024/05/28,2022-12-11,6,10
+789,pagar,liquidado,nascetur ridiculus,288968.81,624149.04,2023/02/08,2023-12-02,33,10
+790,receber,liquidado,tempus semper est,663015.29,311701.25,2024/08/04,2023-10-20,34,7
+791,receber,liquidado,libero ut massa volutpat convallis,932152.05,835025.56,2022/12/31,2022-02-06,30,2
+792,receber,aberto,id pretium iaculis diam erat,235338.87,848162.12,2023/11/02,2023-12-08,58,5
+793,pagar,liquidado,amet eros suspendisse accumsan tortor,356576.42,927122.41,2022/03/10,2023-03-07,20,1
+794,receber,liquidado,in purus eu magna vulputate,464271.91,165902.43,2022/06/16,2022-05-25,94,9
+795,receber,liquidado,odio donec,862191.16,871413.51,2024/07/17,2022-03-16,26,5
+796,pagar,aberto,a pede posuere nonummy,727961.31,606077.77,2024/04/16,2023-05-13,66,8
+797,pagar,aberto,rhoncus aliquet pulvinar sed nisl,716117.29,786737.93,2024/07/13,2024-08-07,31,8
+798,pagar,aberto,praesent id massa id nisl,181867.57,304386.77,2022/12/03,2021-09-06,6,4
+799,pagar,aberto,at ipsum ac tellus semper,863033.11,176494.41,2024/02/21,2023-11-17,72,7
+800,receber,aberto,amet sem fusce consequat,542140.45,252687.15,2023/07/13,2024-01-31,57,5
+801,receber,liquidado,morbi sem,770446.7,628809.93,2022/01/31,2022-06-08,2,5
+802,pagar,liquidado,aliquet at feugiat non,91913.29,197333.56,2021/10/14,2023-07-25,73,1
+803,pagar,aberto,dictumst morbi vestibulum velit,451991.46,554682.78,2022/10/13,2022-10-09,16,10
+804,receber,liquidado,lacinia nisi,553005.52,739623.17,2022/12/03,2022-08-05,23,6
+805,pagar,liquidado,cras pellentesque volutpat,246535.74,733242.27,2022/06/04,2023-04-06,47,6
+806,receber,aberto,interdum mauris non ligula,183675.36,976306.48,2023/01/01,2022-10-31,54,9
+807,pagar,aberto,dui proin leo,246924.78,885648.0,2023/07/11,2021-12-28,73,7
+808,receber,aberto,consequat nulla nisl nunc,806571.08,128997.31,2022/04/13,2023-07-24,58,3
+809,receber,liquidado,dictumst etiam faucibus,278840.52,980444.34,2024/08/16,2022-03-13,21,7
+810,receber,liquidado,sem fusce consequat nulla nisl,981563.55,140362.77,2023/12/11,2023-02-28,20,10
+811,pagar,aberto,bibendum morbi,792889.41,577722.18,2023/02/20,2022-03-16,79,8
+812,receber,liquidado,eget orci vehicula condimentum,933364.1,691502.71,2024/03/11,2022-01-10,37,5
+813,receber,liquidado,morbi vestibulum velit id,815289.49,329183.91,2022/10/03,2022-11-17,47,7
+814,pagar,aberto,faucibus cursus urna ut tellus,403056.41,254872.95,2023/06/14,2022-01-13,97,5
+815,pagar,aberto,integer pede justo lacinia eget,234238.22,147658.25,2022/03/25,2023-08-13,89,2
+816,pagar,liquidado,platea dictumst aliquam,392252.62,665221.49,2022/06/22,2021-11-03,8,8
+817,pagar,aberto,nunc purus phasellus,672256.77,210770.58,2024/06/16,2023-06-08,97,4
+818,receber,aberto,convallis nulla neque libero convallis,759553.71,504025.74,2022/02/06,2024-06-21,84,5
+819,receber,liquidado,curabitur at,617582.48,555105.94,2024/02/11,2023-06-28,61,3
+820,pagar,liquidado,nulla tellus in sagittis dui,460803.08,934961.81,2024/04/08,2021-11-18,84,10
+821,pagar,liquidado,ligula suspendisse ornare consequat lectus,353600.82,588475.86,2022/09/26,2022-05-26,16,1
+822,receber,liquidado,maecenas tristique est et,639734.46,733403.23,2022/10/09,2022-10-17,100,7
+823,receber,liquidado,at feugiat non,568939.89,444459.3,2024/07/11,2024-08-05,40,5
+824,pagar,aberto,nulla eget eros elementum,752897.74,586036.54,2023/06/16,2023-10-05,52,8
+825,pagar,liquidado,pede posuere nonummy integer,48644.06,221679.76,2023/02/27,2024-05-26,9,10
+826,receber,liquidado,dictumst aliquam augue,113298.35,309521.42,2023/03/23,2023-06-08,76,1
+827,receber,aberto,et tempus semper est,923438.69,378480.01,2022/05/01,2021-10-06,13,7
+828,receber,aberto,volutpat convallis morbi,304194.19,855432.05,2021/11/16,2022-01-24,95,1
+829,receber,liquidado,aliquam augue,574830.94,106870.47,2022/01/17,2023-08-23,34,2
+830,pagar,aberto,facilisi cras,40463.4,740488.69,2024/01/20,2023-11-09,72,5
+831,receber,aberto,donec posuere,223478.85,558379.95,2022/07/15,2022-08-27,70,2
+832,pagar,liquidado,sed ante vivamus tortor duis,597492.79,505006.54,2023/09/19,2021-11-26,98,4
+833,pagar,liquidado,odio consequat varius integer ac,96918.57,111629.03,2022/11/24,2024-07-23,47,7
+834,pagar,aberto,amet diam in magna,908210.05,956557.69,2023/07/27,2023-02-11,31,7
+835,pagar,liquidado,urna pretium nisl ut,956498.82,243114.36,2022/10/25,2023-10-02,3,5
+836,receber,aberto,tristique fusce,803191.6,366785.16,2022/09/23,2022-07-08,11,10
+837,pagar,aberto,ligula vehicula consequat morbi,5999.42,232513.8,2023/11/22,2021-11-22,68,2
+838,receber,aberto,ante vel ipsum praesent,906906.19,601182.93,2022/11/11,2021-12-16,50,4
+839,pagar,aberto,pede ullamcorper,832528.45,218988.39,2022/01/14,2022-04-14,53,9
+840,receber,aberto,pede justo,435965.9,522459.11,2022/01/13,2024-05-07,34,8
+841,pagar,aberto,integer ac,504269.57,138845.36,2022/03/09,2022-04-26,73,7
+842,receber,liquidado,eleifend luctus,685987.39,876903.67,2023/09/24,2023-01-04,81,3
+843,pagar,aberto,velit vivamus vel,182699.15,392857.76,2024/08/31,2023-01-10,95,7
+844,pagar,aberto,enim lorem,978408.92,588279.23,2022/01/02,2023-03-23,88,5
+845,receber,liquidado,mi sit amet,822749.85,459284.94,2022/07/31,2022-05-11,79,4
+846,pagar,aberto,habitasse platea,185604.88,167125.78,2022/01/26,2023-02-06,50,10
+847,pagar,aberto,varius ut blandit non,932734.4,860446.32,2022/06/09,2024-01-30,42,3
+848,receber,aberto,pede ullamcorper augue,491535.23,242450.11,2023/07/19,2024-03-06,48,7
+849,pagar,liquidado,pede malesuada,656578.1,45379.22,2023/01/26,2022-09-01,49,3
+850,pagar,aberto,sociis natoque,605826.14,197978.63,2024/08/07,2023-02-12,98,5
+851,receber,aberto,risus dapibus augue vel accumsan,737653.16,923043.01,2021/12/09,2023-01-12,97,5
+852,receber,liquidado,est donec odio justo sollicitudin,56333.3,832038.7,2022/03/31,2022-04-24,9,4
+853,pagar,liquidado,mauris laoreet,272058.96,234076.21,2023/08/30,2022-06-29,10,4
+854,pagar,liquidado,primis in,742454.03,132667.98,2023/05/27,2022-12-09,39,2
+855,receber,aberto,iaculis diam,535251.58,941238.46,2023/04/08,2022-09-29,33,7
+856,pagar,liquidado,vestibulum sit amet,526379.01,894003.74,2023/09/21,2021-10-15,53,10
+857,pagar,aberto,blandit non interdum in ante,135402.88,242924.04,2022/07/07,2024-06-08,45,7
+858,pagar,aberto,posuere nonummy integer non velit,235915.47,676735.84,2023/11/19,2021-12-04,50,8
+859,receber,aberto,interdum mauris ullamcorper purus,50026.12,81949.23,2024/01/08,2022-02-11,36,5
+860,receber,liquidado,lacus at turpis donec,583593.59,455845.94,2023/07/30,2024-02-02,87,9
+861,pagar,aberto,penatibus et,573129.0,217489.49,2022/04/17,2024-03-06,78,3
+862,pagar,liquidado,sagittis sapien cum,486719.29,337939.3,2024/05/15,2022-09-27,40,9
+863,receber,liquidado,pellentesque ultrices mattis odio donec,958642.32,850147.7,2023/11/15,2022-07-04,65,7
+864,receber,liquidado,odio donec,621475.3,461723.01,2024/07/31,2024-05-07,51,9
+865,receber,liquidado,pede lobortis,976415.35,392616.0,2023/07/15,2024-03-04,76,2
+866,pagar,aberto,ut massa volutpat convallis morbi,702845.86,748158.58,2024/04/28,2021-11-23,67,7
+867,receber,aberto,mauris vulputate elementum,963302.13,701964.87,2022/04/11,2022-03-05,91,7
+868,pagar,liquidado,at turpis,972457.72,244712.91,2023/09/14,2024-06-14,68,4
+869,receber,aberto,parturient montes nascetur ridiculus,306047.39,420252.71,2022/03/28,2024-06-27,55,6
+870,receber,aberto,eget eleifend,183662.56,420690.35,2022/03/25,2021-10-13,12,1
+871,pagar,liquidado,tempor turpis nec,85206.07,986079.58,2023/01/06,2023-07-25,43,5
+872,receber,aberto,nullam sit,160182.47,629976.63,2022/11/05,2022-12-20,58,5
+873,pagar,aberto,in hac habitasse platea,112267.18,900985.98,2023/05/11,2022-09-07,63,10
+874,pagar,liquidado,amet consectetuer adipiscing,592535.64,471781.4,2024/02/10,2021-10-18,9,3
+875,receber,liquidado,pretium iaculis diam,866327.99,186101.63,2024/03/14,2023-07-12,74,5
+876,receber,liquidado,malesuada in,393258.83,683398.15,2022/07/30,2023-12-23,57,7
+877,receber,aberto,convallis tortor,267805.27,290.86,2024/04/12,2024-06-16,90,2
+878,receber,liquidado,quis tortor id,432282.14,354806.55,2024/07/21,2023-05-07,82,6
+879,receber,aberto,eget nunc donec,278775.8,850550.08,2023/05/26,2022-03-21,35,9
+880,receber,aberto,interdum mauris non,733193.52,119614.26,2023/02/14,2022-10-22,88,5
+881,pagar,aberto,vestibulum aliquet ultrices erat tortor,822568.06,999863.46,2022/07/11,2024-08-21,77,10
+882,receber,aberto,posuere cubilia curae,305044.55,718738.36,2022/06/20,2023-07-25,82,9
+883,pagar,liquidado,duis bibendum morbi non,560021.67,191609.91,2024/06/19,2021-10-13,48,5
+884,receber,liquidado,tincidunt eget tempus vel pede,487942.81,953040.39,2022/07/03,2024-08-21,37,5
+885,receber,aberto,vestibulum vestibulum,209863.07,285248.44,2024/03/17,2022-06-23,42,7
+886,receber,liquidado,sollicitudin mi,328527.07,246873.89,2023/09/24,2023-11-17,47,8
+887,receber,aberto,risus semper porta volutpat,707207.28,244478.98,2024/07/02,2022-05-20,73,2
+888,pagar,liquidado,leo odio,183414.21,164597.68,2022/03/31,2022-03-01,90,10
+889,pagar,liquidado,vehicula condimentum curabitur in,130332.72,218717.1,2024/01/29,2021-11-25,19,5
+890,receber,liquidado,quam pharetra magna ac,789336.11,437558.33,2022/07/01,2024-08-07,38,2
+891,pagar,aberto,tortor eu pede,142922.02,181780.02,2024/05/17,2023-10-10,37,6
+892,receber,aberto,elit proin risus praesent,441352.89,170776.04,2021/10/06,2022-09-13,31,4
+893,receber,aberto,dignissim vestibulum vestibulum ante,600202.55,346329.6,2022/09/11,2021-09-10,72,10
+894,pagar,liquidado,neque vestibulum eget vulputate ut,753525.91,205815.34,2021/09/21,2021-10-15,62,10
+895,receber,aberto,augue a suscipit,353852.13,516646.73,2022/04/11,2024-04-05,57,4
+896,pagar,liquidado,consequat varius integer,81040.23,792199.33,2022/03/18,2023-07-11,59,10
+897,pagar,liquidado,maecenas ut massa quis augue,525044.38,308127.5,2023/02/07,2023-05-19,4,7
+898,pagar,liquidado,integer a nibh in,595473.18,642289.5,2023/11/23,2024-08-19,23,10
+899,receber,aberto,ipsum dolor,581766.78,622605.06,2022/03/20,2023-02-27,61,6
+900,receber,liquidado,eget nunc donec quis,196690.06,537684.2,2022/02/18,2024-01-30,23,8
+901,receber,liquidado,vel sem sed sagittis,169012.31,319001.36,2024/07/05,2024-02-08,26,9
+902,receber,liquidado,scelerisque quam turpis,840502.49,417171.24,2021/10/09,2022-01-13,84,9
+903,pagar,liquidado,viverra eget congue eget,658880.16,527546.79,2024/08/29,2022-06-19,40,9
+904,pagar,aberto,sed augue aliquam,870050.22,548034.35,2021/11/27,2022-07-27,45,6
+905,pagar,aberto,lectus aliquam sit,765619.13,43509.27,2022/10/21,2022-01-24,8,7
+906,receber,aberto,interdum mauris non ligula,579910.24,157791.56,2023/12/29,2023-05-08,4,6
+907,receber,aberto,placerat praesent blandit nam,462081.18,947294.12,2023/04/18,2022-01-15,2,2
+908,pagar,aberto,in libero ut massa,394331.69,359236.14,2023/07/21,2022-12-27,76,4
+909,receber,aberto,rutrum rutrum,893474.99,435926.44,2024/01/25,2021-10-17,89,5
+910,receber,liquidado,magna ac consequat metus,171620.13,375245.91,2024/03/31,2023-07-11,8,8
+911,pagar,liquidado,feugiat non pretium,280521.04,265501.81,2023/03/18,2023-09-13,72,5
+912,receber,aberto,nulla tellus in,922482.49,32919.25,2022/10/04,2023-06-01,46,8
+913,pagar,liquidado,pellentesque quisque porta volutpat erat,441274.7,367747.21,2024/06/23,2022-08-24,69,9
+914,receber,aberto,erat volutpat in,396271.89,187401.11,2024/07/07,2024-05-01,19,8
+915,pagar,aberto,risus dapibus augue vel,503786.52,452221.44,2024/05/21,2023-12-14,43,7
+916,receber,aberto,luctus tincidunt nulla mollis molestie,571534.49,465127.02,2024/06/25,2022-11-01,59,7
+917,pagar,liquidado,auctor sed,984542.84,703060.67,2024/04/13,2022-09-10,2,8
+918,receber,aberto,convallis eget,622199.85,144470.98,2022/10/26,2024-04-25,14,10
+919,pagar,aberto,nam nulla integer pede justo,614651.92,357747.76,2024/03/15,2023-11-01,16,5
+920,pagar,aberto,imperdiet et,637002.86,433055.21,2023/07/14,2024-07-02,52,3
+921,pagar,liquidado,vel ipsum praesent,487210.18,46626.92,2024/01/05,2024-02-24,53,5
+922,pagar,liquidado,ipsum primis,369940.86,606333.32,2022/06/05,2022-08-17,98,3
+923,pagar,liquidado,primis in faucibus,855839.42,958312.15,2024/03/18,2023-10-19,28,6
+924,pagar,aberto,nulla sed accumsan felis,128159.11,609985.27,2023/06/04,2024-04-27,31,7
+925,receber,liquidado,dolor sit,981552.17,735594.04,2023/07/13,2022-01-18,79,10
+926,receber,aberto,ut blandit non,640804.85,747599.59,2022/03/22,2023-07-30,17,1
+927,pagar,liquidado,vivamus vel nulla eget eros,638984.63,933912.54,2024/02/03,2023-10-03,24,2
+928,pagar,aberto,diam id ornare imperdiet sapien,84855.99,140369.59,2022/06/03,2023-04-05,99,10
+929,receber,aberto,ac lobortis vel,113411.74,749440.23,2022/04/12,2023-07-10,5,7
+930,pagar,aberto,in faucibus orci luctus et,128694.56,374157.88,2022/09/12,2023-02-14,55,8
+931,receber,aberto,potenti cras in,107301.74,300661.62,2022/07/03,2022-05-18,29,8
+932,receber,aberto,mi pede malesuada in imperdiet,155571.85,348581.9,2024/05/21,2022-02-23,93,5
+933,receber,aberto,amet consectetuer,302313.23,550205.76,2023/08/16,2023-02-03,29,3
+934,pagar,aberto,purus eu magna vulputate luctus,718711.89,36955.8,2023/08/14,2024-03-14,28,2
+935,receber,liquidado,posuere nonummy integer non,560134.4,267379.55,2023/08/12,2023-12-05,8,2
+936,pagar,aberto,lorem integer tincidunt,292414.88,632423.25,2024/01/19,2024-08-25,65,9
+937,receber,liquidado,libero ut massa volutpat,869827.13,673559.36,2022/06/24,2022-06-29,34,2
+938,receber,aberto,at lorem,162215.87,955850.45,2024/04/21,2022-04-18,46,10
+939,receber,liquidado,penatibus et,336326.3,606990.28,2022/02/18,2024-06-07,28,5
+940,receber,liquidado,duis mattis egestas metus,230625.08,495212.16,2023/11/01,2024-08-03,58,8
+941,pagar,aberto,ultrices posuere,401370.12,914169.77,2021/10/28,2021-11-18,90,6
+942,receber,liquidado,turpis sed ante vivamus tortor,642327.02,319597.19,2022/03/23,2024-06-26,90,9
+943,receber,aberto,justo morbi ut odio cras,868274.89,957527.84,2023/03/06,2022-04-13,9,6
+944,receber,aberto,integer pede justo,960704.4,645069.36,2023/09/26,2022-11-04,85,5
+945,receber,liquidado,montes nascetur ridiculus mus,770007.46,165746.96,2022/05/25,2024-06-28,94,2
+946,pagar,aberto,ante vivamus tortor,372893.3,423484.67,2024/07/02,2023-11-07,32,4
+947,receber,liquidado,ut suscipit a,151616.32,850480.41,2023/06/22,2022-08-01,19,10
+948,receber,aberto,quisque erat,451835.15,330939.08,2024/03/12,2024-05-10,42,8
+949,receber,aberto,nulla quisque,504422.97,585616.77,2022/10/10,2022-08-16,100,1
+950,pagar,aberto,proin at turpis a,146617.46,236562.08,2024/05/25,2022-05-16,63,1
+951,pagar,aberto,ligula pellentesque ultrices phasellus id,787123.16,171005.89,2023/01/20,2023-05-15,6,1
+952,receber,aberto,aliquam quis turpis,928591.72,441467.9,2022/02/24,2023-06-08,23,4
+953,receber,aberto,erat quisque erat eros viverra,536806.34,283312.22,2021/12/27,2024-04-30,91,4
+954,pagar,liquidado,montes nascetur ridiculus,395662.95,805311.5,2023/07/30,2024-06-01,91,4
+955,pagar,aberto,at diam nam tristique,962011.61,710701.14,2023/06/15,2022-07-12,43,9
+956,pagar,liquidado,risus auctor,380509.75,887127.5,2021/09/29,2021-11-14,87,6
+957,receber,aberto,nascetur ridiculus,466884.49,87779.62,2022/12/23,2023-05-09,86,9
+958,pagar,liquidado,sed vestibulum sit amet cursus,664527.87,433065.82,2023/08/26,2022-10-17,11,2
+959,receber,aberto,pellentesque ultrices mattis odio donec,275373.18,798650.71,2023/07/14,2023-11-11,72,9
+960,receber,aberto,enim in,897382.09,944663.46,2022/03/01,2024-03-05,37,5
+961,pagar,aberto,augue aliquam erat volutpat,48662.07,530892.89,2022/03/22,2023-02-17,74,5
+962,pagar,aberto,amet diam in,45764.8,848429.25,2022/08/03,2023-11-22,91,8
+963,receber,liquidado,adipiscing elit proin interdum,532365.19,196025.82,2022/08/09,2023-01-15,28,3
+964,pagar,liquidado,pellentesque volutpat dui maecenas tristique,774628.21,638977.46,2023/04/25,2022-04-23,79,4
+965,receber,aberto,molestie hendrerit at vulputate vitae,246140.28,435473.13,2021/09/23,2023-04-07,83,1
+966,receber,liquidado,dolor sit amet consectetuer adipiscing,985547.57,232144.48,2022/06/23,2023-10-30,84,2
+967,pagar,liquidado,nulla eget eros elementum pellentesque,856704.38,992089.81,2022/11/19,2022-03-20,97,7
+968,pagar,liquidado,leo odio porttitor id,822662.82,747380.41,2023/02/11,2022-11-05,75,3
+969,receber,liquidado,sit amet consectetuer,594404.64,938682.56,2022/10/06,2022-09-28,62,5
+970,pagar,aberto,pellentesque viverra pede,885147.75,2470.56,2024/05/14,2021-09-13,93,1
+971,pagar,liquidado,vel ipsum praesent,105877.53,370689.54,2024/04/26,2022-05-17,82,1
+972,pagar,liquidado,nisi vulputate nonummy maecenas,572246.01,72266.93,2022/11/17,2022-05-17,51,2
+973,pagar,liquidado,duis faucibus,714569.52,654015.13,2022/05/29,2021-11-27,44,5
+974,pagar,aberto,non ligula,994155.01,162999.61,2022/03/19,2022-11-17,38,6
+975,receber,aberto,quam suspendisse potenti nullam porttitor,552197.61,799698.49,2023/04/04,2022-08-01,40,3
+976,pagar,liquidado,nibh quisque id justo sit,965295.03,520236.88,2022/08/30,2023-08-22,67,5
+977,pagar,liquidado,duis ac nibh,786547.25,282850.93,2022/08/07,2023-03-29,92,2
+978,pagar,liquidado,sociis natoque penatibus,392152.29,529199.02,2023/11/30,2024-03-01,34,10
+979,pagar,liquidado,blandit mi in porttitor pede,172862.4,746121.93,2024/04/11,2023-06-25,29,6
+980,pagar,liquidado,at feugiat non pretium,342899.08,723312.7,2024/04/20,2022-02-26,26,4
+981,pagar,liquidado,viverra pede ac diam,41656.96,849324.8,2022/08/13,2023-03-06,25,10
+982,pagar,aberto,rutrum nulla nunc purus,667782.23,674550.83,2022/01/17,2023-07-16,92,3
+983,receber,liquidado,nibh in lectus,54942.73,24811.74,2024/08/09,2022-01-18,1,9
+984,pagar,aberto,sollicitudin mi,208358.78,292899.62,2023/03/12,2022-09-12,1,3
+985,receber,aberto,vulputate nonummy maecenas tincidunt lacus,847232.07,260143.88,2022/11/19,2022-11-19,76,10
+986,pagar,aberto,id massa,914305.74,904478.57,2024/08/11,2021-10-26,99,9
+987,receber,liquidado,id massa id nisl venenatis,550663.32,280012.47,2023/04/30,2024-03-02,55,9
+988,receber,liquidado,eleifend donec ut dolor morbi,131005.1,188838.2,2024/08/05,2023-05-17,36,7
+989,receber,liquidado,nisl aenean lectus pellentesque eget,651172.91,877429.85,2023/03/25,2021-09-07,13,1
+990,pagar,liquidado,ultrices aliquet maecenas leo odio,213972.74,243257.36,2022/03/11,2023-04-16,71,5
+991,pagar,aberto,ultrices mattis odio,99389.73,253008.79,2023/01/20,2021-11-06,81,4
+992,receber,aberto,condimentum id,8227.59,206785.5,2022/12/14,2022-06-10,39,6
+993,pagar,aberto,non interdum in ante,677398.24,889160.91,2022/06/26,2022-08-23,13,7
+994,receber,liquidado,est et tempus semper,321770.63,722165.03,2024/03/11,2022-10-15,80,4
+995,pagar,aberto,ligula in lacus,210675.6,803952.43,2024/06/04,2021-09-08,97,9
+996,pagar,liquidado,nam congue risus,741539.19,439350.07,2022/03/25,2023-01-30,49,3
+997,pagar,liquidado,ut ultrices vel augue vestibulum,501734.9,719296.85,2022/06/11,2022-11-22,1,5
+998,pagar,aberto,posuere nonummy integer non velit,880152.34,99001.34,2022/12/28,2024-05-20,16,8
+999,receber,aberto,amet lobortis sapien sapien,329749.06,308221.37,2023/03/03,2024-03-22,81,10
+1000,pagar,aberto,pellentesque quisque porta,431057.61,181056.26,2023/10/07,2023-03-26,100,5
