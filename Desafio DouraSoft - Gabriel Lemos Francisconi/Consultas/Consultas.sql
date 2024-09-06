@@ -11,7 +11,7 @@ FROM lancamentos l
 LEFT JOIN cadastros cad ON l.cadastro_id = cad.id
 WHERE l.tipo = 'receber'
 AND l.status = 'liquidado'
-AND l.liquidacao BETWEEN '2023-01-01' AND '2023-12-31';
+AND l.liquidacao BETWEEN '2024-01-01' AND '2024-12-31';
 
 -- Total de receitas liquidadas, por categoria mensal
 SELECT TO_CHAR(l.liquidacao, 'YYYY-MM') AS mes,
