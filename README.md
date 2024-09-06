@@ -4,7 +4,7 @@ Arquivo Principal do desafio - desafio-database.sql
 - **SGBD**: PostgreSQL
 
 
-- gerando_dados
+### gerando_dados
 ### Tecnologias Utilizadas
 - **Linguagem**: JavaScript
 - **Biblioteca**: Faker
