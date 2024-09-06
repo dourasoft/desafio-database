@@ -1,0 +1,61 @@
+Estrutura da tabela cadastro
+--
+
+CREATE TABLE `cadastro` (
+  ID = int NOT NULL AUTO_INCREMENT,
+  NOME = varchar(40),
+  DOC = decimal(20,0),
+  CEP = int NOT NULL,
+  ESTADO = varchar(20),
+  CIDADE = varchar(30),
+  ENDERECO = varchar(30),
+  PRIMARY KEY (ID)
+);
+--
+
+Estrutura da tabela tags
+
+CREATE TABLE tags (
+  ID = int NOT NULL AUTO_INCREMENT,
+  titulo = text,
+  PRIMARY KEY (ID)
+);
+
+--
+
+Estrutura da tabela cadastro_tags
+
+CREATE TABLE cadastro_tags (
+  cadastro_id = int NOT NULL,
+  TAGS_ID = int NOT NULL
+);
+--
+Estrutura da tabela categorias
+
+CREATE TABLE categorias (
+  ID = int NOT NULL AUTO_INCREMENT,
+  TITULO = varchar(50),
+  PRIMARY KEY (ID)
+);
+
+--
+Estrutura da tabela lancamentos
+CREATE TABLE lancamentos (
+  id = int NOT NULL AUTO_INCREMENT,
+  tipo = enum('pagar','receber'),
+  status = enum('aberto','liquidado') ,
+  descricao= text,
+  valor= float,
+  valor_liquidado = float,
+  vencimento = date,
+  liquidacao = date,
+  cadastro_id = int,
+  categoria_id = int,
+  PRIMARY KEY (id),
+  FOREIGN KEY cadastro_id REFERENCES (cadastro_id),
+  FOREIGN KEY categoria_id REFERENCES (categoria_id)
+);
+
+
+
+
