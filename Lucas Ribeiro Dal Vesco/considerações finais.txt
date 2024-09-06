@@ -1,6 +1,0 @@
-programa feito para gerar inserts aleatórios em um arquivo .txt para o banco PostgreSQL utilizando a linguagem Golang.
-
-na tabela lancamentos, o campo de cadastro foi considerado nulo para 
-todos os cadastros do tipo pagamento
-
-na tabela lançamentos o campo liquidação foi preenchido com uma data somente nos campos com status 'liquidado'.

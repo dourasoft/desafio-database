@@ -4,8 +4,12 @@ import (
 	"fmt"
 	"math/rand"
 	"os"
+
+	//"os"
 	"strconv"
 )
+
+// cadastros
 
 func GerarNome() string {
 	nomes := []string{"Lucas", "Maria", "João", "Ana", "Pedro", "Fernanda", "Bruno", "Camila", "Gustavo", "Isabela"}
@@ -13,46 +17,69 @@ func GerarNome() string {
 	return nomes[rand.Intn(len(nomes))] + " " + sobrenomes[rand.Intn(len(sobrenomes))]
 }
 
-func GerarCNPJ() string {
-	tresNumeros := []string{
-		"123", "456", "789", "321", "654", "987", "741", "852", "963", "159",
-		"753", "258", "369", "147", "258", "369", "741", "852", "963", "111",
-		"222", "333", "444", "555", "666", "777", "888", "999", "000", "234",
-		"567", "890", "123", "456", "789", "987", "654", "321", "876", "543",
-		"210", "135", "246", "357", "468", "579", "690", "147", "258", "369",
+func GerarCNPJ() string { // gera um cnpj seguindo a regra de validação
+	chaveValidadoraUm := []int{5, 4, 3, 2, 9, 8, 7, 6, 5, 4, 3, 2}
+	chaveValidadoraDois := []int{6, 5, 4, 3, 2, 9, 8, 7, 6, 5, 4, 3}
+	numeros := [][]int{
+		{rand.Intn(9), rand.Intn(9), rand.Intn(9), rand.Intn(9), rand.Intn(9), rand.Intn(9), rand.Intn(9), rand.Intn(9), 0, 0, 0, 1},
+		{rand.Intn(9), rand.Intn(9), rand.Intn(9), rand.Intn(9), rand.Intn(9), rand.Intn(9), rand.Intn(9), rand.Intn(9), 0, 0, 0, 2},
 	}
-	doisNumeros := []string{
-		"01", "02", "03", "04", "05", "06", "07", "08", "09", "10",
-		"11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
-		"21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
-		"31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
-		"41", "42", "43", "44", "45", "46", "47", "48", "49", "50",
+	valorCNPJ := numeros[rand.Intn(len(numeros))]
+	validaum := 0
+	validadois := 0
+	// primeiro numero validador
+	for i := 0; i < len(chaveValidadoraUm); i++ {
+		validaum += valorCNPJ[i] + chaveValidadoraUm[i]
 	}
-
-	filialOUsede := []string{"/0001", "/0002"}
-
-	return doisNumeros[rand.Intn(len(tresNumeros))] + "." + tresNumeros[rand.Intn(len(tresNumeros))] + "." +
-		tresNumeros[rand.Intn(len(tresNumeros))] + filialOUsede[rand.Intn(len(filialOUsede))] + "-" + doisNumeros[rand.Intn(len(doisNumeros))]
+	validaum = validaum % 11
+	if validaum > 1 {
+		validaum = 11 - validaum
+	} else {
+		validaum = 0
+	}
+	//segundo numero validador
+	for i := 0; i < len(chaveValidadoraDois); i++ {
+		validadois += valorCNPJ[i] + chaveValidadoraDois[i]
+	}
+	validadois += validaum * 2
+	validadois = validadois % 11
+	if validadois > 1 {
+		validadois = 11 - validadois
+	} else {
+		validadois = 0
+	}
+	return strconv.Itoa(valorCNPJ[0]) + strconv.Itoa(valorCNPJ[1]) + "." +
+		strconv.Itoa(valorCNPJ[2]) + strconv.Itoa(valorCNPJ[3]) + strconv.Itoa(valorCNPJ[4]) + "." +
+		strconv.Itoa(valorCNPJ[5]) + strconv.Itoa(valorCNPJ[6]) + strconv.Itoa(valorCNPJ[7]) + "/" +
+		strconv.Itoa(valorCNPJ[8]) + strconv.Itoa(valorCNPJ[9]) + strconv.Itoa(valorCNPJ[10]) + strconv.Itoa(valorCNPJ[11]) + "-" +
+		strconv.Itoa(validaum) + strconv.Itoa(validadois)
 }
 
-func GerarCPF() string {
-	tresNumeros := []string{
-		"123", "456", "789", "321", "654", "987", "741", "852", "963", "159",
-		"753", "258", "369", "147", "258", "369", "741", "852", "963", "111",
-		"222", "333", "444", "555", "666", "777", "888", "999", "000", "234",
-		"567", "890", "123", "456", "789", "987", "654", "321", "876", "543",
-		"210", "135", "246", "357", "468", "579", "690", "147", "258", "369",
+func GerarCPF() string { //gera um cpf seguindo a regra de validação
+	numeros := []int{rand.Intn(9), rand.Intn(9), rand.Intn(9), rand.Intn(9), rand.Intn(9), rand.Intn(9), rand.Intn(9), rand.Intn(9), rand.Intn(9)}
+	var validaum int
+	var validadois int
+	// primeiro numero validador
+	for i := 0; i < 9; i++ {
+		validaum += numeros[i] * (10 - i)
 	}
-	doisNumeros := []string{
-		"01", "02", "03", "04", "05", "06", "07", "08", "09", "10",
-		"11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
-		"21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
-		"31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
-		"41", "42", "43", "44", "45", "46", "47", "48", "49", "50",
+	validaum = (validaum * 10) % 11
+	if validaum == 10 {
+		validaum = 0
 	}
-
-	return tresNumeros[rand.Intn(len(tresNumeros))] + "." + tresNumeros[rand.Intn(len(tresNumeros))] + "." +
-		tresNumeros[rand.Intn(len(tresNumeros))] + "-" + doisNumeros[rand.Intn(len(doisNumeros))]
+	// segundo numero validador
+	for i := 0; i < 9; i++ {
+		validadois += numeros[i] * (11 - i)
+	}
+	validadois += validaum * 2
+	validadois = (validadois * 10) % 11
+	if validadois == 10 {
+		validadois = 0
+	}
+	return strconv.Itoa(numeros[0]) + strconv.Itoa(numeros[1]) + strconv.Itoa(numeros[2]) + "." +
+		strconv.Itoa(numeros[3]) + strconv.Itoa(numeros[4]) + strconv.Itoa(numeros[5]) + "." +
+		strconv.Itoa(6) + strconv.Itoa(7) + strconv.Itoa(8) + "-" +
+		strconv.Itoa(validaum) + strconv.Itoa(validadois)
 }
 
 func GerarDocumento() string {
@@ -129,7 +156,7 @@ func GerarCadastroInsert() string {
 		GerarCidade() + "', '" + GerarEndereco() + "');"
 }
 
-//******************************************************
+// tags
 
 func GerarTagInsert(i int) string {
 	tags := []string{
@@ -141,6 +168,8 @@ func GerarTagInsert(i int) string {
 	return "insert into tags (titulo) values ( '" + tags[i] + "');"
 }
 
+// categorias
+
 func GerarCategoriaInsert(i int) string {
 	categorias := []string{
 		"Transferência Entre Contas", "Pagamento de Boletos", "Transferência Internacional",
@@ -151,11 +180,13 @@ func GerarCategoriaInsert(i int) string {
 	return "insert into categorias (titulo) values ( '" + categorias[i] + "');"
 }
 
+// cadastros_tags
+
 func GerarCadastro_tagInsert(cadastroid string) string {
 	return "insert into cadastros_tags (fk_cadastro, fk_tag) values ('" + cadastroid + "', '" + strconv.Itoa(rand.Intn(9)+1) + "');"
 }
 
-// ******************************************************
+// transferencias
 
 func GerarTipo() string {
 	tipos := []string{
@@ -221,7 +252,7 @@ func GerarData() string {
 	return "2023-" + mes + "-" + dia
 }
 
-func GerarTransferenciaInput() string {
+func GerarLancamentosInput() string {
 	tipo := GerarTipo()
 	status := GerarStatus()
 	var descricao string
@@ -267,9 +298,10 @@ func GerarTransferenciaInput() string {
 
 }
 
-// ******************************************************
+// main
 func main() {
-	fileName := "INSERT SCRIPT.txt"
+	fileName := "" +
+		"INSERT_SCRIPTS.sql"
 	file, err := os.Create(fileName)
 	if err != nil {
 		fmt.Println("Erro ao criar o arquivo:", err)
@@ -338,7 +370,7 @@ func main() {
 	// transferencias
 
 	for i := 0; i < 1000; i++ {
-		_, err = file.WriteString(GerarTransferenciaInput() + "\n")
+		_, err = file.WriteString(GerarLancamentosInput() + "\n")
 		if err != nil {
 			fmt.Println("Erro ao escrever no arquivo:", err)
 			return

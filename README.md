@@ -1,79 +1,33 @@
-# Desafio de Banco de Dados
+# Desafio Database Dourasoft
+# Repositório: Sistema de Recrutamento
 
-Este desafio consiste na criação de um banco de dados com os seguintes requisitos:
+Este repositório contém scripts, ferramentas e relatórios relacionados ao desafio proposto pela Dourasoft.com base nas [instruções fornecidas](https://github.com/dourasoft/desafio-database)
 
-1. **Cadastros:**
-    - Mínimo de 100 cadastros aleatórios.
-    - Cada cadastro deve conter as seguintes informações:
-        - `id` (primary key)
-        - `nome`
-        - `documento` (cpf ou cnpj)
-        - `cep`
-        - `estado`
-        - `cidade`
-        - `endereco`
+## Estrutura do Repositório
 
-2. **Tags:**
-    - Mínimo de 10 tags.
-    - Quase todos os cadastros devem possuir tags e alguns mais do que uma tag.
-    - Estrutura da tabela `tags`:
-        - `id`
-        - `titulo`
-    - Estrutura da tabela `cadastros_tags` (relação muitos para muitos entre cadastros e tags):
-        - `cadastro_id`
-        - `tag_id`
+### 1. db/
+Este diretório contém os scripts SQL necessários para a criação, inserção e consulta de dados no banco de dados.
 
-3. **Categorias:**
-    - Mínimo de 10 categorias.
-    - Estrutura da tabela `categorias`:
-        - `id`
-        - `titulo`
+- **CREATE_TABLES.sql**: Script SQL responsável pela criação de todas as tabelas do banco de dados.
+- **INSERT_SCRIPTS.sql**: Script SQL para inserção de dados iniciais nas tabelas criadas.
+- **RELATORIOS_SCRIPTS.sql**: Contém consultas SQL para geração dos relatórios de acordo com os dados inseridos.
 
-4. **Lançamentos:**
-    - Mínimo de 1000 lançamentos entre contas a pagar e receber, liquidadas e abertas.
-    - Estrutura da tabela `lancamentos`:
-        - `id` (primary key)
-        - `tipo` (pagar, receber)
-        - `status` (aberto, liquidado)
-        - `descricao`
-        - `valor`
-        - `valor_liquidado`
-        - `vencimento`
-        - `liquidacao`
-        - `cadastro_id` (foreign key para `cadastros`, pode ser nulo)
-        - `categoria_id` (foreign key para `categorias`, pode ser nulo)
+### 2. ferramentas/
+Este diretório contém ferramentas auxiliares para o sistema de recrutamento.
 
-## Relatórios
+- **Diagrama_RecrutamentoDB.pdf**: Diagrama do banco de dados que mostra a estrutura das tabelas e seus relacionamentos.
+- **Gerar_Inserts.go**: Script em Go que automatiza a geração de comandos `INSERT INTO` para o banco de dados, facilitando a inserção de dados em massa.
 
-1. **Lista de cadastros com tags:**
-    - Colunas: `nome`, `estado`, `cidade`, `tags` (string com as tags).
+### 3. relatorios/
+Neste diretório estão os relatórios gerados com base nos dados do sistema de recrutamento.
 
-2. **Lista de receitas liquidadas em um determinado período:**
-    - Colunas: `nome`, `documento`, `descricao`, `liquidacao`, `valor_liquidado`.
-    - Observação: trazer os valores mesmo se o `cadastro_id` estiver nulo.
+- **relatorio-1-Cadastros_com_tag.pdf**: Relatório que mostra todos os cadastros realizados, categorizados por tags específicas.
+- **relatorio-2-Receitas_liquidadas_em_2024.pdf**: Relatório financeiro das receitas liquidadas no ano de 2024.
+- **relatorio-3-Total_de_receitas_liquidadas_por_categoria_mensal.pdf**: Total de receitas liquidadas, separadas por categoria e mês.
+- **relatorio-4-despesas_em_aberto.pdf**: Relatório das despesas que ainda estão em aberto, ou seja, não foram liquidadas.
+- **relatorio-5-Total_de_despesas_liquidadas_por_categoria_mensal.pdf**: Total de despesas liquidadas, categorizadas mensalmente.
+- **relatorios_Dourasoft_Recrutamento.xlsx**: Relatório em formato Excel contendo informações consolidadas do sistema de recrutamento.
 
-3. **Total de receitas liquidadas, por categoria mensal:**
-    - Relatório mês a mês com o total de receitas por categoria.
 
-4. **Lista de despesas em aberto:**
-    - Colunas: `nome`, `documento`, `descricao`, `vencimento`, `valor`.
-    - Observação: trazer os valores mesmo se o `cadastro_id` estiver nulo.
-
-5. **Total de despesas liquidadas, por categoria mensal:**
-    - Relatório mês a mês com o total de despesas por categoria.
-
-## Requisitos Técnicos
-
-- Utilização de scripts para a criação do banco de dados.
-- Uso de versionamento de código com Git.
-
-## Contribuição
-
-1. Faça um fork do projeto.
-2. Crie uma branch com seu nome.
-3. Abra um novo Pull Request com seu código.
-
----
-
-Este desafio é uma excelente oportunidade para demonstrar habilidades em criação e gerenciamento de bancos de dados, bem como na geração de relatórios a partir dos dados armazenados. 
-Boa sorte!
+ # Autor
+ Lucas Ribeiro Dal Vesco
