@@ -1,7 +1,6 @@
 # Desafio Database Dourasoft
-# Repositório: Sistema de Recrutamento
 
-Este repositório contém scripts, ferramentas e relatórios relacionados ao desafio proposto pela Dourasoft.com base nas [instruções fornecidas](https://github.com/dourasoft/desafio-database)
+Este repositório contém scripts, ferramentas e relatórios relacionados ao desafio proposto pela Dourasoft, com base nas [instruções fornecidas](https://github.com/dourasoft/desafio-database)
 
 ## Estrutura do Repositório
 
