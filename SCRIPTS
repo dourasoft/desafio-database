@@ -1,0 +1,37 @@
+1 - Retornar nome, estado, cidade e as tags com o titulo.
+SELECT c.nome, c.estado , c.cidade, t.id, t.titulo FROM cadastro c
+JOIN tags t
+ON c.id = t.id
+
+2 - Retornar nome, documento, descricao, liquidacao, valor_liquidado. apenas valores já liquidados.
+SELECT c.nome, c.doc, l.descricao, l.liquidacao, l.valor_liquidado,l.status FROM cadastro c
+JOIN lancamentos l
+ON c.id = l.id
+WHERE l.status = 'liquidado';
+
+3 - Mostra os dados das pessoas que já liquidaram suas contas os valores e os meses que foram contabilizado liquidações
+
+SELECT c.nome, c.doc, l.descricao, l.liquidacao, l.valor_liquidado FROM cadastro c
+JOIN lancamentos l
+ON c.id = l.cadastro_id
+WHERE l.status = 'Liquidado'
+AND
+	MONTH(l.liquidacao) IN (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12)
+    ORDER BY liquidacao DESC;
+
+4 - Mostra os dados das pessoas que não pagaram as liquidações ainda.
+
+SELECT c.nome, c.doc, l.descricao, l.vencimento, l.valor FROM cadastro c
+JOIN lancamentos l
+ON c.id = l.cadastro_id
+WHERE l.status = 'aberto'
+
+5 - Gera os dados das pessoas que não pagaram e os meses em ordem decrescente
+
+SELECT c.nome, c.doc, l.descricao, l.vencimento, l.valor FROM cadastro c
+JOIN lancamentos l
+ON c.id = l.cadastro_id
+WHERE l.status = 'aberto'
+AND 
+	MONTH(l.vencimento) IN (1,2,3,4,5,6,7,8,9,10,11,12)
+    ORDER BY l.vencimento ASC
