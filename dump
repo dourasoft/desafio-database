@@ -1,0 +1,171 @@
+CREATE DATABASE  IF NOT EXISTS `cadastros` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+USE `cadastros`;
+-- MySQL dump 10.13  Distrib 8.0.38, for Win64 (x86_64)
+--
+-- Host: localhost    Database: cadastros
+-- ------------------------------------------------------
+-- Server version	8.3.0
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `cadastro`
+--
+
+DROP TABLE IF EXISTS `cadastro`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `cadastro` (
+  `ID` int NOT NULL AUTO_INCREMENT,
+  `NOME` varchar(40) DEFAULT NULL,
+  `DOC` decimal(20,0) DEFAULT NULL,
+  `CEP` int NOT NULL,
+  `ESTADO` varchar(20) DEFAULT NULL,
+  `CIDADE` varchar(30) DEFAULT NULL,
+  `ENDERECO` varchar(30) DEFAULT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=MyISAM AUTO_INCREMENT=101 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `cadastro`
+--
+
+LOCK TABLES `cadastro` WRITE;
+/*!40000 ALTER TABLE `cadastro` DISABLE KEYS */;
+INSERT INTO `cadastro` VALUES (1,'Maria',12345678901,12345678,'SP','São Paulo','Ana Silva'),(2,'Carlos',98765432100,87654321,'RJ','Rio de Janeiro','Lucas Oliveira'),(3,'Fernanda',23456789012,23456789,'MG','Belo Horizonte','Paula Santos'),(4,'Roberto',34567890123,34567890,'RS','Porto Alegre','Marcelo Pereira'),(5,'Juliana',45678901234,45678901,'BA','Salvador','Camila Costa'),(6,'Ricardo',56789012345,56789012,'PR','Curitiba','Thiago Lima'),(7,'Aline',67890123456,67890123,'CE','Fortaleza','Juliana Almeida'),(8,'Marcos',78901234567,78901234,'GO','Goiânia','Roberta Fernandes'),(9,'Tatiane',89012345678,89012345,'DF','Brasília','Jorge Martins'),(10,'André',90123456789,90123456,'ES','Vitória','Beatriz Rocha'),(11,'Camila',1234567890,1234567,'SC','Florianópolis','Pedro Silva'),(12,'Fabio',12345678901,12345678,'MA','São Luís','Letícia Oliveira'),(13,'Larissa',23456789012,23456789,'PI','Teresina','Gustavo Costa'),(14,'Mariana',34567890123,34567890,'PA','Belém','Viviane Fernandes'),(15,'Jorge',45678901234,45678901,'AM','Manaus','Cristiano Almeida'),(16,'Sofia',56789012345,56789012,'TO','Palmas','Daniele Silva'),(17,'Rafael',67890123456,67890123,'MT','Cuiabá','Sérgio Lima'),(18,'Patrícia',78901234567,78901234,'RO','Porto Velho','Mário Lima'),(19,'Eduardo',89012345678,89012345,'AC','Rio Branco','Sandra Costa'),(20,'Isabela',90123456789,90123456,'SE','Aracaju','Felipe Pereira'),(21,'Roberta',1234567890,1234567,'AL','Maceió','Vanessa Martins'),(22,'Paulo',12345678901,12345678,'RN','Natal','Mariana Rodrigues'),(23,'Amanda',23456789012,23456789,'PB','João Pessoa','Júlio Oliveira'),(24,'Daniel',34567890123,34567890,'PE','Recife','Fernanda Silva'),(25,'Renata',45678901234,45678901,'MA','São Luís','André Costa'),(26,'Lucas',56789012345,56789012,'AL','Maceió','Natália Almeida'),(27,'Giovana',67890123456,67890123,'CE','Fortaleza','Paulo Martins'),(28,'Felipe',78901234567,78901234,'PI','Teresina','Marcelino Costa'),(29,'Débora',89012345678,89012345,'BA','Salvador','Tatiane Silva'),(30,'Lucas',90123456789,90123456,'MG','Belo Horizonte','Flávia Oliveira'),(31,'Cristina',1234567890,1234567,'SP','São Paulo','Roberto Santos'),(32,'Gabriel',12345678901,12345678,'RJ','Rio de Janeiro','Joana Fernandes'),(33,'Paula',23456789012,23456789,'RS','Porto Alegre','Robson Lima'),(34,'Fernanda',34567890123,34567890,'SC','Florianópolis','Michele Costa'),(35,'Carla',45678901234,45678901,'PR','Curitiba','Rafael Costa'),(36,'Gustavo',56789012345,56789012,'GO','Goiânia','Lúcia Santos'),(37,'Camila',67890123456,67890123,'DF','Brasília','Eduardo Almeida'),(38,'Lúcia',78901234567,78901234,'ES','Vitória','João Silva'),(39,'Marcio',89012345678,89012345,'BA','Salvador','Tatiane Santos'),(40,'Tânia',90123456789,90123456,'SP','São Paulo','Vanessa Silva'),(41,'José',1234567890,1234567,'MG','Belo Horizonte','Francisco Lima'),(42,'Ana',12345678901,12345678,'RJ','Rio de Janeiro','Larissa Costa'),(43,'Claudia',23456789012,23456789,'BA','Salvador','Alberto Pereira'),(44,'Rogério',34567890123,34567890,'RS','Porto Alegre','Sílvia Silva'),(45,'Rita',45678901234,45678901,'SC','Florianópolis','Lucas Martins'),(46,'Samuel',56789012345,56789012,'MG','Belo Horizonte','Carla Almeida'),(47,'Nathalia',67890123456,67890123,'TO','Palmas','Tatiane Rocha'),(48,'Lucas',78901234567,78901234,'PA','Belém','Patrícia Silva'),(49,'Giovanna',89012345678,89012345,'AM','Manaus','Júlio Costa'),(50,'Maurício',90123456789,90123456,'SE','Aracaju','Claudia Lima'),(51,'Sandra',1234567890,1234567,'AL','Maceió','André Silva'),(52,'Vinícius',12345678901,12345678,'PI','Teresina','Júlio Oliveira'),(53,'Amanda',23456789012,23456789,'PE','Recife','Eduardo Silva'),(54,'Rafael',34567890123,34567890,'MA','São Luís','Jessica Costa'),(55,'Sabrina',45678901234,45678901,'AL','Maceió','Ana Paula Lima'),(56,'Gabriela',56789012345,56789012,'CE','Fortaleza','Rodrigo Martins'),(57,'Fernando',67890123456,67890123,'PI','Teresina','Patrícia Costa'),(58,'Marcela',78901234567,78901234,'BA','Salvador','Luana Almeida'),(59,'Lucas',89012345678,89012345,'MG','Belo Horizonte','Gabriel Pereira'),(60,'Thais',90123456789,90123456,'SP','São Paulo','Vera Silva'),(61,'Henrique',1234567890,1234567,'RJ','Rio de Janeiro','Daniela Costa'),(62,'Sueli',12345678901,12345678,'RS','Porto Alegre','Rafael Lima'),(63,'Juliano',23456789012,23456789,'SC','Florianópolis','Carla Almeida'),(64,'Tatiane',34567890123,34567890,'PR','Curitiba','Silvia Costa'),(65,'Aline',45678901234,45678901,'GO','Goiânia','Rodrigo Silva'),(66,'Mariana',56789012345,56789012,'DF','Brasília','Fernanda Martins'),(67,'Vera',67890123456,67890123,'ES','Vitória','Lucas Costa'),(68,'José',78901234567,78901234,'BA','Salvador','Tatiane Almeida'),(69,'Roberta',89012345678,89012345,'MG','Belo Horizonte','Juliana Silva'),(70,'Bruno',90123456789,90123456,'SP','São Paulo','Vinícius Almeida'),(71,'Elen',1234567890,1234567,'RJ','Rio de Janeiro','Patrícia Lima'),(72,'Marcia',12345678901,12345678,'RS','Porto Alegre','Rogério Costa'),(73,'Pedro',23456789012,23456789,'SC','Florianópolis','Michele Santos'),(74,'Lívia',34567890123,34567890,'PR','Curitiba','Fernanda Rocha'),(75,'Danilo',45678901234,45678901,'GO','Goiânia','Ricardo Silva'),(76,'Sílvia',56789012345,56789012,'DF','Brasília','Carlos Costa'),(77,'Tatiane',67890123456,67890123,'ES','Vitória','Daniel Silva'),(78,'Júlio',78901234567,78901234,'BA','Salvador','Vanessa Santos'),(79,'Amanda',89012345678,89012345,'MG','Belo Horizonte','Leonardo Costa'),(80,'Mariana',90123456789,90123456,'SP','São Paulo','Amanda Silva'),(81,'Ricardo',1234567890,1234567,'RJ','Rio de Janeiro','Mariana Costa'),(82,'Laura',12345678901,12345678,'RS','Porto Alegre','Silvia Costa'),(83,'Rogério',23456789012,23456789,'SC','Florianópolis','Paulo Lima'),(84,'Gabriela',34567890123,34567890,'PR','Curitiba','Tatiane Santos'),(85,'Marcelo',45678901234,45678901,'GO','Goiânia','Cristiane Almeida'),(86,'Fernanda',56789012345,56789012,'DF','Brasília','Marcelo Lima'),(87,'Pedro',67890123456,67890123,'ES','Vitória','Roberta Costa'),(88,'Débora',78901234567,78901234,'BA','Salvador','Fernando Silva'),(89,'Nathalia',89012345678,89012345,'MG','Belo Horizonte','Cláudia Lima'),(90,'Robson',90123456789,90123456,'SP','São Paulo','Vera Almeida'),(91,'Sabrina',1234567890,1234567,'RJ','Rio de Janeiro','José Silva'),(92,'Renata',12345678901,12345678,'RS','Porto Alegre','Carla Santos'),(93,'Marcos',23456789012,23456789,'SC','Florianópolis','Luana Costa'),(94,'Jéssica',34567890123,34567890,'PR','Curitiba','Márcio Costa'),(95,'Tatiane',45678901234,45678901,'GO','Goiânia','Vanessa Lima'),(96,'Claudia',56789012345,56789012,'DF','Brasília','Ricardo Santos'),(97,'Rodrigo',67890123456,67890123,'ES','Vitória','Amanda Costa'),(98,'Priscila',78901234567,78901234,'BA','Salvador','Mariana Almeida'),(99,'Tatiane',89012345678,89012345,'MG','Belo Horizonte','Carlos Lima'),(100,'Leonardo',90123456789,90123456,'SP','São Paulo','Silvia Costa');
+/*!40000 ALTER TABLE `cadastro` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `cadastro_tags`
+--
+
+DROP TABLE IF EXISTS `cadastro_tags`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `cadastro_tags` (
+  `cadastro_id` int NOT NULL,
+  `TAGS_ID` int NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `cadastro_tags`
+--
+
+LOCK TABLES `cadastro_tags` WRITE;
+/*!40000 ALTER TABLE `cadastro_tags` DISABLE KEYS */;
+INSERT INTO `cadastro_tags` VALUES (11,22),(33,44),(55,66),(77,88),(99,0),(12,34),(56,78),(90,12),(34,56),(78,90);
+/*!40000 ALTER TABLE `cadastro_tags` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `categorias`
+--
+
+DROP TABLE IF EXISTS `categorias`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `categorias` (
+  `ID` int NOT NULL AUTO_INCREMENT,
+  `TITULO` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `categorias`
+--
+
+LOCK TABLES `categorias` WRITE;
+/*!40000 ALTER TABLE `categorias` DISABLE KEYS */;
+INSERT INTO `categorias` VALUES (1,'Teste1'),(2,'teste2'),(3,'teste3'),(4,'teste4'),(5,'teste5'),(6,'test6'),(7,'teste7'),(8,'teste8'),(9,'teste9'),(10,'teste10');
+/*!40000 ALTER TABLE `categorias` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `lancamentos`
+--
+
+DROP TABLE IF EXISTS `lancamentos`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `lancamentos` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `tipo` enum('pagar','receber') DEFAULT NULL,
+  `status` enum('aberto','liquidado') DEFAULT NULL,
+  `descricao` text,
+  `valor` float DEFAULT NULL,
+  `valor_liquidado` float DEFAULT NULL,
+  `vencimento` date DEFAULT NULL,
+  `liquidacao` date DEFAULT NULL,
+  `cadastro_id` int DEFAULT NULL,
+  `categoria_id` int DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `cadastro_id` (`cadastro_id`),
+  KEY `categoria_id` (`categoria_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=45 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `lancamentos`
+--
+
+LOCK TABLES `lancamentos` WRITE;
+/*!40000 ALTER TABLE `lancamentos` DISABLE KEYS */;
+INSERT INTO `lancamentos` VALUES (1,'pagar','aberto','Pagamento de fornecedor',100,0,'2024-09-15',NULL,1,1),(2,'receber','liquidado','Recebimento de cliente',200,200,'2024-08-20','2024-08-25',2,3),(3,'pagar','liquidado','Pagamento de aluguel',500,500,'2024-07-01','2024-07-05',1,2),(4,'receber','aberto','Recebimento de projeto',800,0,'2024-10-10',NULL,3,4),(5,'pagar','aberto','Pagamento de serviços de TI',1200,0,'2024-09-30',NULL,4,5),(6,'receber','liquidado','Recebimento de contrato',300,300,'2024-05-15','2024-05-20',5,6),(7,'pagar','liquidado','Pagamento de material de escritório',150,150,'2024-06-01','2024-06-05',5,4),(8,'receber','aberto','Recebimento de adiantamento',1000,0,'2024-11-01',NULL,2,3),(9,'pagar','aberto','Pagamento de manutenção',250,0,'2024-10-15',NULL,5,2),(10,'receber','liquidado','Recebimento de comissão',450,450,'2024-07-20','2024-07-25',6,7),(11,'pagar','liquidado','Pagamento de publicidade',600,600,'2024-08-10','2024-08-15',1,8),(12,'receber','aberto','Recebimento de royalties',500,0,'2024-12-05',NULL,4,9),(13,'pagar','aberto','Pagamento de seguro',200,0,'2024-09-25',NULL,2,1),(14,'receber','liquidado','Recebimento de juros',350,350,'2024-06-15','2024-06-20',3,4),(15,'pagar','liquidado','Pagamento de taxas bancárias',75,75,'2024-05-01','2024-05-05',3,5),(16,'receber','aberto','Recebimento de indenização',1200,0,'2024-11-20',NULL,1,3),(17,'pagar','aberto','Pagamento de consultoria',700,0,'2024-10-05',NULL,6,6),(18,'receber','liquidado','Recebimento de prêmio',900,900,'2024-08-25','2024-08-30',5,2),(19,'pagar','liquidado','Pagamento de aluguel comercial',800,800,'2024-07-15','2024-07-20',2,7),(20,'receber','aberto','Recebimento de doação',400,0,'2024-12-10',NULL,3,8),(21,'pagar','aberto','Pagamento de impostos',350,0,'2024-11-30',NULL,6,7),(22,'receber','liquidado','Recebimento de contrato de serviços',600,600,'2024-09-05','2024-09-10',4,9),(23,'pagar','liquidado','Pagamento de taxas de serviço',180,180,'2024-08-01','2024-08-05',3,2),(24,'receber','aberto','Recebimento de reembolso',250,0,'2024-10-20',NULL,1,3),(25,'pagar','aberto','Pagamento de treinamento',300,0,'2024-09-10',NULL,5,6),(26,'receber','liquidado','Recebimento de financiamento',700,700,'2024-07-25','2024-07-30',2,7),(27,'pagar','liquidado','Pagamento de transporte',100,100,'2024-06-10','2024-06-15',9,8),(28,'receber','aberto','Recebimento de royalties de livro',800,0,'2024-12-01','0000-00-00',3,9),(29,'pagar','aberto','Pagamento de taxas de franquia',400,0,'2024-11-15',NULL,4,3),(30,'receber','liquidado','Recebimento de dividendos',1500,1500,'2024-08-15','2024-08-20',1,6),(31,'pagar','liquidado','Pagamento de fornecedores diversos',300,300,'2024-07-05','2024-07-10',6,5),(32,'receber','aberto','Recebimento de prêmio de seguro',550,0,'2024-10-30',NULL,2,7),(33,'pagar','aberto','Pagamento de equipamentos',1000,0,'2024-09-25',NULL,6,8),(34,'receber','liquidado','Recebimento de comissão de vendas',1200,1200,'2024-06-25','2024-06-30',3,9),(35,'pagar','liquidado','Pagamento de aluguel residencial',400,400,'2024-08-20','2024-08-25',4,1),(36,'receber','aberto','Recebimento de prêmios diversos',700,0,'2024-11-05',NULL,5,2),(37,'pagar','aberto','Pagamento de publicidade online',200,0,'2024-09-15',NULL,1,6),(38,'receber','liquidado','Recebimento de receita de eventos',900,900,'2024-07-30','2024-08-05',6,7),(39,'pagar','liquidado','Pagamento de serviços de limpeza',150,150,'2024-06-05','2024-06-10',2,8),(40,'receber','aberto','Recebimento de royalties de música',600,0,'2024-10-15',NULL,1,9),(41,'pagar','aberto','Pagamento de taxas de franquia',250,0,'2024-09-20',NULL,1,4),(42,'receber','liquidado','Recebimento de juros sobre investimentos',500,500,'2024-08-01','2024-08-05',3,5),(43,'pagar','liquidado','Pagamento de manutenção predial',350,350,'2024-07-10','2024-07-15',6,9),(44,'receber','aberto','Recebimento de doação especial',800,0,'2024-12-10',NULL,2,6);
+/*!40000 ALTER TABLE `lancamentos` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `tags`
+--
+
+DROP TABLE IF EXISTS `tags`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `tags` (
+  `ID` int NOT NULL AUTO_INCREMENT,
+  `titulo` text,
+  PRIMARY KEY (`ID`)
+) ENGINE=MyISAM AUTO_INCREMENT=22 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `tags`
+--
+
+LOCK TABLES `tags` WRITE;
+/*!40000 ALTER TABLE `tags` DISABLE KEYS */;
+INSERT INTO `tags` VALUES (1,'A'),(2,'B'),(3,'C'),(4,'D'),(5,'E'),(6,'F'),(7,'G'),(8,'H'),(9,'I'),(10,'J'),(11,'K'),(12,'Teste1'),(13,'teste2'),(14,'teste3'),(15,'teste4'),(16,'teste5'),(17,'test6'),(18,'teste7'),(19,'teste8'),(20,'teste9'),(21,'teste10');
+/*!40000 ALTER TABLE `tags` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping events for database 'cadastros'
+--
+
+--
+-- Dumping routines for database 'cadastros'
+--
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2024-09-06 11:15:51
