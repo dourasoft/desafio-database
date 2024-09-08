@@ -86,20 +86,21 @@ insert into categorias (titulo) values
     ('Empréstimos'),
     ('Investimentos'),
     ('Salários');
-insert into cadastros_tags (cadastro_id, tag_id) values
-    (1, 1), 
-    (1, 2),
-    (2, 3), 
-    (2, 4), 
-    (3, 1),
-    (3, 5), 
-    (4, 7), 
-    (5, 9), 
-    (6, 10), 
-    (7, 3), 
-    (8, 6), 
-    (9, 8), 
-    (10, 4);
+DELIMITER $$
+CREATE PROCEDURE InserirRelacoesAleatorias()
+BEGIN
+    DECLARE i INT DEFAULT 0;
+    WHILE i < 100 DO
+        INSERT INTO cadastros_tags (cadastro_id, tag_id)
+        VALUES (
+            (SELECT id FROM cadastros ORDER BY RAND() LIMIT 1),
+            (SELECT id FROM categorias ORDER BY RAND() LIMIT 1)
+        );
+        SET i = i + 1;
+    END WHILE;
+END $$
+DELIMITER ;
+CALL InserirRelacoesAleatorias();
 DELIMITER $$
 create procedure InserirLancamentosAleatorios()
 begin
