@@ -5,104 +5,25 @@
         <meta http-equiv='X-UA-Compatible' content='IE=edge'>
         <title>Page Title</title>
         <meta name='viewport' content='width=device-width, initial-scale=1'>
-        <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+        <link rel='stylesheet' media='screen' href='index.css'>
+        <link rel='stylesheet' media='screen' href='layout.css'>
         <script src='main.js'></script>
     </head>
     <body>
-        <!-- Table dos Cadastros-->
-        <div>
-            <h2>Cadastros</h2>
-            <table>
-              
-                <tr>
-                  <th>id</th>
-                  <th>nome</th>
-                  <th>documento</th>
-                  <th>cep</th>
-                  <th>estado</th>
-                  <th>cidade</th>
-                  <th>endereco</th>
-                  <th>?</th>
-                </tr>
-                <% for(var i=0; i<cadastros.length; i++){ %>
-                  <tr>
-                    <th><%=cadastros[i].id%></th>
-                    <th><%=cadastros[i].nome%></th>
-                    <th><%=cadastros[i].documento%></th>
-                    <th><%=cadastros[i].cep%></th>
-                    <th><%=cadastros[i].estado%></th>
-                    <th><%=cadastros[i].cidade%></th>
-                    <th><%=cadastros[i].endereco%></th>
-                    <th>
-                      <% for(var i=0; i<1; i++){ %>
-                        <div>
-                          "OIE"
-                        </div>  
-                      <% } %>
-                    </th>
-                  </tr>
-                <% } %>
-              </table>
+      <header>
+        <nav>
+          <a href="/relatorios"><div>Relatórios</div></a>
+          <a href="/tables"><div>Tabelas</div></a>
+        </nav>
+      </header>
+      <main>
+        <h1 class="balloon">LANDING PAGE</h1>
+        <div class="balloon">
+          <p>Por favor selecione um dos botões na navbar para utilizar do sistema.</p>   
         </div>
-        <!-- Table das Tags-->
-        <div>
-          <h2>Tags</h2>
-          <table>
-              <tr>
-                <th>id</th>
-                <th>titulo</th>
-              </tr>
-              <% for(var i=0; i<tags.length; i++){ %>
-                <tr>
+      </main>
+      <button></button>
 
-                  <th><%= tags[i].id%></th>
-                  <th><%= tags[i].titulo%></th>
-                </tr>
-                <% } %>
-          </table>
-        </div>
 
-         <!-- Table das Categorias-->
-         <div>
-          <h2>Categorias</h2>
-          <table>
-              <tr>
-                <th>id</th>
-                <th>titulo</th>
-              </tr>
-              <% for(var i=0; i<categorias.length; i++){ %>
-                <tr>
-                  <th><%= categorias[i].id%></th>
-                  <th><%= categorias[i].titulo%></th>
-                </tr>
-                <% } %>
-          </table>
-        </div>
-
-         <!-- Table dos Lançamentos-->
-         <div>
-          <h2>Lançamentos</h2>
-          <table>
-              <tr>
-                <th>id</th>
-                <th>tipo</th>
-                <th>status</th>
-                <th>descricao</th>
-                <th>valor</th>
-                <th>valor_liquidado</th>
-                <th>vencimento</th>
-                <th>liquidacao</th>
-                <th>cadastro</th>
-                <th>categoria</th>
-
-              </tr>
-              <% for(var i=0; i<lancamentos.length; i++){ %>
-                <tr>
-                  <th><%= lancamentos[i].id%></th>
-                  <th><%= categorias[i].titulo%></th>
-                </tr>
-                <% } %>
-          </table>
-        </div>
     </body>
 </html>

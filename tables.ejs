@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Page Title</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='layout.css'>
+        <link rel='stylesheet' type='text/css' media='screen' href='tables.css'>
+    </head>
+    <body>
+        <header>
+            <nav>
+              <a href="/relatorios"><div>Relatórios</div></a>
+              <a href="/tables"><div>Tabelas</div></a>
+            </nav>
+          </header>
+          <main>
+            <aside class="balloon">
+                <h3>Navegar para</h3>
+                <ol>
+                    <a href="#table1"><li>Cadastros</li></a>
+                    <a href="#table2"><li>Tags</li></a>
+                    <a href="#table3"><li>Categorias</li></a>
+                    <a href="#table4"><li>Lançamentos</li></a>
+                </ol>
+            </aside>
+            <!-- Table dos Cadastros-->
+            <div class="balloon">
+                <h2>Cadastros</h2>
+                <table id="table1">       
+                    <tr>
+                    <th>id</th>
+                    <th>nome</th>
+                    <th>documento</th>
+                    <th>cep</th>
+                    <th>estado</th>
+                    <th>cidade</th>
+                    <th>endereco</th>
+                    <th>tags</th>
+                    </tr>
+                    <% for(var i=0; i<cadastros.length; i++){ %>
+                    <tr>
+                        <td><%=cadastros[i].id%></td>
+                        <td><%=cadastros[i].nome%></td>
+                        <td><%=cadastros[i].documento%></td>
+                        <td><%=cadastros[i].cep%></td>
+                        <td><%=cadastros[i].estado%></td>
+                        <td><%=cadastros[i].cidade%></td>
+                        <td><%=cadastros[i].endereco%></td>
+                        <td>
+                        <% if (cadastros && cadastros[i]){%>
+                            <% for(var j=0; j<cadastros[i].tags.length; j++) { %>
+                            <span><%= cadastros[i].tags[j]  %></span>
+                            <% } %>
+                        <%}%>
+                        
+                        </td>
+                    </tr>
+                    <% } %>
+                </table>
+            </div>
+            <!-- Table das Tags-->
+            <div class="balloon">
+            <h2>Tags</h2>
+            <table id="table2">
+                <tr>
+                    <th>id</th>
+                    <th>titulo</th>
+                </tr>
+                <% for(var i=0; i<tags.length; i++){ %>
+                    <tr>
+                        <td><%= tags[i].id%></td>
+                        <td><%= tags[i].titulo%></td>
+                    </tr>
+                    <% } %>
+            </table>
+            </div>
+    
+            <!-- Table das Categorias-->
+            <div class="balloon">
+            <h2>Categorias</h2>
+            <table id="table3">
+                <tr>
+                    <th>id</th>
+                    <th>titulo</th>
+                </tr>
+                <% for(var i=0; i<categorias.length; i++){ %>
+                    <tr>
+                    <td><%= categorias[i].id%></td>
+                    <td><%= categorias[i].titulo%></td>
+                    </tr>
+                    <% } %>
+            </table>
+            </div>
+    
+            <!-- Table dos Lançamentos-->
+            <div class="balloon">
+            <h2>Lançamentos</h2>
+            <table id="table4">
+                <tr>
+                    <th>id</th>
+                    <th>tipo</th>
+                    <th>status</th>
+                    <th>descricao</th>
+                    <th>valor</th>
+                    <th>valor_liquidado</th>
+                    <th>vencimento</th>
+                    <th>liquidacao</th>
+                    <th>cadastro</th>
+                    <th>categoria</th>
+    
+                </tr>
+                <% for(var i=0; i<lancamentos.length; i++){ %>
+                    <tr>
+                        <td><%= lancamentos[i].id %></td>
+                        <td><%= lancamentos[i].tipo %></td>
+                        <td><%= lancamentos[i].status %></td>
+                        <td><%= lancamentos[i].descricao %></td>
+                        <td><%= lancamentos[i].valor %></td>
+                        <td><%= lancamentos[i].valor_liquidado %></td>
+                        <td><%= lancamentos[i].vencimento %></td>
+                        <td><%= lancamentos[i].liquidacao %></td>
+                        <td><%= lancamentos[i].cadastro %></td>
+                        <td><%= lancamentos[i].categoria %></td>
+                    </tr>
+                    <% } %>
+            </table>
+            </div>
+          </main>
+          
+
+    </body>
+</html>

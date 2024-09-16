@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Page Title</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='layout.css'>
+        <link rel='stylesheet' type='text/css' media='screen' href='relatorios.css'>
+    </head>
+    <body>
+        <header>
+            <nav>
+              <a href="/relatorios"><div>Relatórios</div></a>
+              <a href="/tables"><div>Tabelas</div></a>
+            </nav>
+          </header>
+        <main>
+            <aside class="balloon">
+                <h3>Relatórios:</h3>
+                <ol>
+                    <li><button id="button1">Lista de cadastros com tags.</button></li>
+                    <li><button id="button2">Lista de receitas liquidadas em um determinado período</button></li>
+                    <li><button id="button3">Total de receitas liquidadas, por categoria mensal.</button></li>
+                    <li><button id="button4">Lista de despesas em aberto.</button></li>
+                    <li><button id="button5">Total de despesas liquidadas, por categoria mensal.</button></li>
+                </ol>
+            </aside>
+            <div class="table-container">
+                <table class="visible balloon" id="table1">
+                    <tr>
+                        <th>Nome</th>
+                        <th>Estado</th>
+                        <th>Cidade</th>
+                        <th>Tags</th>
+                    </tr>
+                    <% for(var i=0; i<cadastros.length; i++){ %>
+                        <tr>
+                        <td><%=cadastros[i].nome%></td>
+                        <td><%=cadastros[i].estado%></td>
+                        <td><%=cadastros[i].cidade%></td>
+                        <td>
+                            <% if (cadastros && cadastros[i]){%>
+                            <% for(var j=0; j<cadastros[i].tags.length; j++) { %>
+                                <span><%= cadastros[i].tags[j]  %></span>
+                            <% } %>
+                            <%}%>
+                            
+                        </td>
+                        </tr>
+                    <% } %>
+                </table>
+            </div>
+            <div id="special-div">
+                <div id="date-selection" class="balloon">
+                    <form method="POST" action="/relatorios">
+                        <label for="comeco">Começo</label>
+                        <input type="date" id="comeco" name="data_comeco">
+                        <label for="fim">Fim</label>
+                        <input type="date" id="fim" name="data_fim">
+                        <button type="submit">enviar</button>
+                    </form>
+                    <p>A página irá recarregar após o envio.</p>
+                </div>
+                <div class="table-container">
+                    <table class="balloon" id="table2">
+                        <tr>
+                            <th>Nome</th>
+                            <th>Documento</th>
+                            <th>Descricao</th>
+                            <th>Valor_liquidado</th>
+                            <th>Liquidacao</th>
+                        </tr>
+                        
+                        <% for(var i = 0; i<filtrados.length; i++){ %>
+                            <tr>
+                                <th><%= cadastros[filtrados[i].cadastro_id - 1].nome %></th>
+                                <th><%= cadastros[filtrados[i].cadastro_id - 1].documento %></th>
+                                <th><%= filtrados[i].descricao %></th>
+                                <th><%= filtrados[i].valor_liquidado %></th>
+                                <th><%= filtrados[i].liquidacao %></th>
+                            </tr>
+                        <%}%>
+                    </table>
+                </div>
+            </div>
+            <div class="table-container">
+                <table class="balloon" id="table3">
+                    <tr>
+                        <th>Data</th>
+                        <th>Receita categoria1</th>
+                        <th>Receita categoria2</th>
+                        <th>Receita categoria3</th>
+                        <th>Receita categoria4</th>
+                        <th>Receita categoria5</th>
+                        <th>Receita categoria6</th>
+                        <th>Receita categoria7</th>
+                        <th>Receita categoria8</th>
+                        <th>Receita categoria9</th>
+                        <th>Receita categoria10</th>
+        
+                    </tr>
+                    <% for(var i=0; i<data.length; i++){ %>
+                        <%for(var j=0; j<12; j++){%>
+                            <tr>
+                                <td><%= String(2000 + i) + "/" + String(j) %></td>
+                                <% for(var k=0; k<10; k++){%>
+                                    <td><%= data[i][j][k] %></td>
+                                <%}%>
+                            </tr>  
+                        <% }%>
+                    <% } %>
+                </table>
+            </div>
+            <div class="table-container">
+                <table class="balloon" id="table4">
+                    <tr>
+                        <th>Nome</th>
+                        <th>Documento</th>
+                        <th>Descricao</th>
+                        <th>Vencimento</th>
+                        <th>Valor</th>
+                    </tr>
+                    <% for(var i=0; i<lancamentos.length; i++){ %>
+                        <% if(lancamentos[i].tipo == "Pagar" && lancamentos[i].status == "Aberto"){%>
+                        <tr>
+                            <td><%= cadastros[lancamentos[i].cadastro_id - 1] ? cadastros[lancamentos[i].cadastro_id - 1].nome : "" %></td>
+                            <td><%= cadastros[lancamentos[i].cadastro_id - 1] ? cadastros[lancamentos[i].cadastro_id - 1].documento : "" %></td>
+                            <td><%= lancamentos[i].descricao %></td>
+                            <td><%= lancamentos[i].vencimento %></td>
+                            <td><%= lancamentos[i].valor %></td>    
+                        </tr>
+                        <% } %>
+                    <% } %>
+                </table>
+            </div>
+            <div class="table-container">
+                <table class="balloon" id="table5">
+                    <tr>
+                        <th>Data</th>
+                        <th>Receita categoria1</th>
+                        <th>Receita categoria2</th>
+                        <th>Receita categoria3</th>
+                        <th>Receita categoria4</th>
+                        <th>Receita categoria5</th>
+                        <th>Receita categoria6</th>
+                        <th>Receita categoria7</th>
+                        <th>Receita categoria8</th>
+                        <th>Receita categoria9</th>
+                        <th>Receita categoria10</th>
+        
+                    </tr>
+                    <% for(var i=0; i<data2.length; i++){ %>
+                        <%for(var j=0; j<12; j++){%>
+                            <tr>
+                                <td><%= String(2000 + i) + "/" + String(j) %></td>
+                                <% for(var k=0; k<10; k++){%>
+                                    <td><%= data2[i][j][k] %></td>
+                                <%}%>
+                            </tr>  
+                        <% }%>
+                    <% } %>
+                </table>
+            </div>
+        </main>
+
+      <script src='relatorios.js'></script>
+
+    </body>
+</html>

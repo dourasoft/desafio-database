@@ -1,0 +1,6 @@
+main{
+    flex-flow: column;
+}
+aside{
+    position: absolute;
+}

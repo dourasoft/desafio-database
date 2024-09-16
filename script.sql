@@ -5,7 +5,9 @@ create table Cadastros (
 id int primary key,
 nome varchar(255),
 documento char(14),
-cep char(9),
+cep char(10),
+estado char(2),
+cidade varchar(55),
 endereco varchar(255)
 );
 
@@ -14,16 +16,16 @@ id int primary key,
 titulo varchar(255)
 );
 
-Insert into Tags Values (1,"Tag 1");
-Insert into Tags Values (2,"Tag 2");
-Insert into Tags Values (3,"Tag 3");
-Insert into Tags Values (4,"Tag 4");
-Insert into Tags Values (5,"Tag 5");
-Insert into Tags Values (6,"Tag 6");
-Insert into Tags Values (7,"Tag 7");
-Insert into Tags Values (8,"Tag 8");
-Insert into Tags Values (9,"Tag 9");
-Insert into Tags Values (10,"Tag 10");
+Insert into Tags Values (1,"Azul");
+Insert into Tags Values (2,"Rosa");
+Insert into Tags Values (3,"Vermelha");
+Insert into Tags Values (4,"Roxa");
+Insert into Tags Values (5,"Verde");
+Insert into Tags Values (6,"Amarela");
+Insert into Tags Values (7,"Cinza");
+Insert into Tags Values (8,"Branca");
+Insert into Tags Values (9,"Preta");
+Insert into Tags Values (10,"Marrom");
 
 create table Cadastros_Tags (
 cadastro_id int,
@@ -63,5 +65,3 @@ categoria_id int,
 foreign key (cadastro_id) references Cadastros(id),
 foreign key (categoria_id) references Categorias(id)
 );
-
-select * from Categorias
